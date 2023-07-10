@@ -334,6 +334,10 @@
     font: 1rem/1.6rem "Romagna-Regular", sans-serif
 }
 
+#__layout{
+    max-width: 100%;
+}
+
 .footer-wrap .text,
 .footer-wrap .client-sub-title,
 .footer-wrap .client-title,
@@ -3757,14 +3761,16 @@ body {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        z-index: var(--header-z)
+        z-index: var(--header-z);
+        max-width: 100%;
     }
 
     .site-header-wrapper {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        display: flex
+        display: flex;
+        max-width: 100%;
     }
 
     .site-logo {
