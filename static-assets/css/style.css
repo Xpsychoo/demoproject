@@ -3764,6 +3764,7 @@ body {
     }
 }
 
+
 @media screen and (min-width: 768px) {
     body {
         padding: 0
@@ -12547,5 +12548,11 @@ select {
     .load-bg-pattern.dark-mode .home-store-list {
         background: url(../../static-assets/images/cssimages/homepage/store-darkc9e4.jpg?v=3.1) top center no-repeat;
         background-size: cover
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .owlcarouselstyles{
+        height: 100%;
     }
 }
