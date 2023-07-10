@@ -1702,7 +1702,7 @@ textarea {
 
 
 .bgCdOx {
-    width: 100vw;
+    width: 100%;
     aspect-ratio: undefined/undefined;
     position: relative;
 }
