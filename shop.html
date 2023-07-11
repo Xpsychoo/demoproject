@@ -14,6 +14,11 @@
   <link rel="icon" href="static-assets/skillup-uploads/fc-web/rajasthan-royals.png" />
   <link rel="stylesheet" href="static-assets/css/shop.css">
   <link rel="icon" href="static-assets/skillup-uploads/fc-web/rajasthan-royals.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </head>
 
@@ -92,55 +97,12 @@
       <h1 class="eoDDBb">Rajasthan Royals Official Store - Buy RR Merchandise
         Online | IPL 2023</h1>
       <div class="ikYygq">
-        <div>
-          <div class="bgCdOx">
-            <div class="ciNVPj">
-              <div width="0" class="eNCyMQ">
-                <ul class="jqMdvh">
-                  <li class="chYXbc">
-                    <div width="1440" height="494" class=" dOJwHA"><a href="#">
-                        <img loading="eager" alt=""
-                          src="static-assets/skillup-uploads/prod-images/2023/06/RR-signed-jerseyDweb.jpg" width="1440"
-                          height="494" class="hTfDdc hQJGPX" />
-                      </a></div>
-                  </li>
-                  <li class="chYXbc">
-                    <div class="jRWYcZ"></div>
-                  </li>
-                  <li class="chYXbc">
-                    <div class="jRWYcZ"></div>
-                  </li>
-                  <li class="chYXbc">
-                    <div class="jRWYcZ"></div>
-                  </li>
-                  <li class="chYXbc">
-                    <div class="jRWYcZ"></div>
-                  </li>
-                </ul>
-              </div>
-              <div style="margin-top:16px;align-items:center" class="caUXZt">
-                <div style="justify-content:flex-start" height="0" class="fjmPQJ">
-                  <div class="ljTWkb"></div>
-                  <div class="icnxcd"></div>
-                  <div class="icnxcd"></div>
-                  <div class="icnxcd"></div>
-                  <div class="icnxcd"></div>
-                </div>
-                <div class="bexyoe"><svg width="16" height="16" fill="#a0a0a0" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M14 6.71c.39.39.39 1.02 0 1.41L10.12 12 14 15.88a.996.996 0 11-1.41 1.41L8 12.7a.996.996 0 010-1.41l4.59-4.59c.38-.38 1.02-.38 1.41.01z"
-                      fill="#a0a0a0"></path>
-                  </svg>
-                  <div style="font-size:12px;line-height:1.33;letter-spacing:0.24px;color:#99a0b3;padding:0 12px"
-                    class="kYbKVa">1/5 </div><svg width="16" height="16" fill="#505050"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M10 6.71a.996.996 0 000 1.41L13.88 12 10 15.88a.996.996 0 101.41 1.41L16 12.7a.996.996 0 000-1.41L11.41 6.7c-.38-.38-1.02-.38-1.41.01z"
-                      fill="#505050"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
+        <div class="owl-carousel owl-theme shopCarousel">
+          <div class="item">
+            <img src="static-assets/demoimg.webp" width="100%" alt="">
+          </div>
+          <div class="item">
+            <img src="static-assets/demoimg.webp" width="100%" alt="">
           </div>
         </div>
         <div>
@@ -511,8 +473,8 @@
         <div class="jfdfcz">
           <div class="doRvQI">
             <div class="hvVUoE"><a href="#">
-                <img loading="lazy" src="static-assets/skillup-uploads/prod-images/2023/02/RR-Logo-Unit.png"
-                  width="137" height="58" alt="footer banner img" class="hTfDdc" />
+                <img loading="lazy" src="static-assets/skillup-uploads/prod-images/2023/02/RR-Logo-Unit.png" width="137"
+                  height="58" alt="footer banner img" class="hTfDdc" />
               </a></div>
           </div>
           <div class="jXOHbp">
@@ -567,6 +529,21 @@
     </div>
 
   </div>
+
+  <script>
+    $(function () {
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        items: 1,
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        nav: true,
+        dots: true
+      });
+    });
+  </script>
 </body>
 
 </html>
