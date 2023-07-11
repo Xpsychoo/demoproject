@@ -269,6 +269,9 @@ textarea {
 }
 
 .shopCarousel{
+    position: relative;
+}
+.shopCarousel .owl-stage-outer{
     width: 100%;
     height: 86vh;
     position: relative;
@@ -286,23 +289,44 @@ textarea {
 }
 .shopCarousel .owl-nav{
     position: absolute;
-    left: 10%;
-    bottom: 10%;
+    right: 20px;
+    bottom: -40px;
     z-index: 999;
+    display: flex ;
+    align-items: center;
 }
-.shopCarousel .owl-nav button{
-    border: 0.1em solid hsl(327 74% 67%) !important;
-    color: hsl(327 74% 67%)  !important;
-    background-color: rgba(0, 0, 0, 0.351);
-    height: 3.5em !important;
-    width: 3.5em !important;
-    border-radius: 50% !important;
+.shopCarousel .owl-dots {
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+    z-index: 999;
     display: flex;
+    align-items: center;
+}
+.shopCarousel .owl-dots .owl-dot span{
+    width: 7px !important;
+    height: 7px !important;
+    margin: 5px 3px !important;
+}
+.shopCarousel .owl-dots .owl-dot.active span{
+    width: 20px !important;
+    height: 7px !important;
+    color: #e96db1 !important;
+    background-color: #e96db1 !important;
+}
+
+.shopCarousel .owl-nav button{
+    border: 0px !important;
+    background-color: rgba(0, 0, 0, 0.351);
+    color: #484848;
+    height: 20px !important;
+    width: 20px !important;
+    display: flex !important;
     align-items: center;
     justify-content: center;
 }
 .shopCarousel .owl-nav button span{
-    font-size: 30px;
+    font-size: 20px;
 }
 .shopCarousel .owl-theme .owl-nav button:hover{
     background-color: rgba(0, 0, 0, 0.419) !important;
