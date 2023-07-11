@@ -1,0 +1,375 @@
+.waf-squad {
+    margin: 0 var(--half-space-negative)
+}
+
+.waf-squad .title {
+    margin: 0
+}
+
+.waf-squad .squad-item {
+    isolation: isolate;
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: var(--half-radius);
+    overflow: visible
+}
+
+.waf-squad .squad-item.overseas .icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    padding: .7rem
+}
+
+.waf-squad .squad-item.overseas .icon::before {
+    content: "";
+    font-size: 1.2rem;
+    font-family: "waf-font-icon"
+}
+
+.waf-squad .player-wrap {
+    position: relative
+}
+
+.waf-squad .player-thumbnail {
+    min-height: 48rem
+}
+
+.waf-squad .player-content {
+    padding: var(--full-space) var(--two-space);
+    background: linear-gradient(hsl(var(--primary-light-gradient)/0.2) 0%, hsl(var(--primary-mid-gradient)/7) 43.23%, hsl(var(--primary-dark-gradient)/7) 100%)
+}
+
+.waf-squad .player-name {
+    position: relative
+}
+
+.waf-squad .player-name::after {
+    content: "";
+    height: .1rem;
+    bottom: var(--half-space-negative);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.waf-squad .country-flag {
+    width: 3.6rem;
+    height: auto;
+    border-radius: .5rem;
+    overflow: visible
+}
+
+.waf-squad .player-stats-item {
+    flex-basis: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.waf-squad .player-stats-item:first-child::before,
+.waf-squad .player-stats-item::after {
+    content: "";
+    width: .1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.waf-squad .player-stats-item::after {
+    right: 0
+}
+
+.waf-squad .player-stats-item:first-child::before {
+    left: 0
+}
+
+.waf-squad .role {
+    position: relative
+}
+
+.waf-squad .role::after {
+    content: "";
+    width: .1rem;
+    right: var(--half-space-negative);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.dark-mode .waf-squad.squad-page .tab-container-wrap-1 .squad-item::before {
+    content: "";
+    background: url(/static-assets/images/cssimages/squad/player-dark-m.jpg?v=3.1) bottom center no-repeat;
+    background-size: cover
+}
+
+.dark-mode .waf-squad.squad-page .tab-container-wrap-2 .squad-item::before {
+    content: "";
+    background: url(/static-assets/images/cssimages/squad/support-dark-m.jpg?v=3.1) bottom center no-repeat;
+    background-size: cover
+}
+
+.dark-mode .waf-squad.squad-page .tab-container-wrap-2 .player-content {
+    background: linear-gradient(hsl(var(--color-hsl-black-light)/0.5) 0%, hsl(var(--color-hsl-black-light)/1) 100%)
+}
+
+.waf-squad.squad-page .waf-body {
+    margin: 0
+}
+
+.waf-squad.squad-page .title {
+    margin-bottom: var(--two-space)
+}
+
+.waf-squad.squad-page .head-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.waf-squad.squad-page .squad-wrapper {
+    flex-wrap: wrap
+}
+
+.waf-squad.squad-page .tab-name {
+    width: 50%;
+    position: relative
+}
+
+.waf-squad.squad-page .tab-name.active::after {
+    height: .3rem
+}
+
+.waf-squad.squad-page .tab-name::after {
+    content: "";
+    height: .1rem;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.waf-squad.squad-page .tab-name span {
+    height: 3.5rem;
+    width: 100%
+}
+
+.waf-squad.squad-page .squad-item {
+    position: relative;
+    isolation: isolates;
+    border-radius: var(--full-radius);
+    overflow: hidden
+}
+
+.waf-squad.squad-page .squad-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: var(--bg-gradient)
+}
+
+.waf-squad.squad-page .first-name {
+    font-size: 2.8rem;
+    line-height: 3rem
+}
+
+.waf-squad.squad-page .last-name {
+    font-size: 2rem;
+    line-height: 2.2rem
+}
+
+.waf-squad.squad-page .role {
+    font-size: 1.1rem;
+    line-height: 1.3rem
+}
+
+.waf-squad.squad-page .role:last-child::after {
+    display: none
+}
+
+.waf-squad.squad-page .player-role {
+    position: relative;
+    margin: var(--half-space) 0
+}
+
+.waf-squad.squad-page .player-role::after {
+    content: "";
+    height: .1rem;
+    bottom: var(--half-space-negative);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.waf-squad.squad-page .player-country {
+    margin: var(--full-space) 0 var(--half-space)
+}
+
+.waf-squad.squad-page .player-stats-list {
+    flex-wrap: wrap;
+    display: none;
+    justify-content: center
+}
+
+.waf-squad.squad-page .player-stats-item {
+    flex-basis: 33.3333333333%;
+    width: 33.3333333333%;
+    flex-shrink: 0
+}
+
+.waf-squad.squad-page .view-more {
+    display: block
+}
+
+.waf-squad.squad-page .btn-buy {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: hsl(var(--color-hsl-white-default)/0.7)
+}
+
+.waf-squad.squad-page .card-action {
+    flex-basis: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    position: relative;
+    gap: var(--quater-space)
+}
+
+.waf-squad.squad-page .card-action::after {
+    content: "";
+    height: .1rem;
+    top: var(--full-space-negative);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.waf-squad.squad-page .card-action .btn-site {
+    width: calc(50% - .25rem);
+    flex-basis: calc(50% - .25rem);
+    flex-shrink: 0
+}
+
+.waf-squad.squad-page .tab-container-wrap-1 .toggle-stats .btn-text {
+    font-size: 0
+}
+
+.waf-squad.squad-page .tab-container-wrap-1 .toggle-stats[aria-expanded=true]~.player-content .player-name,
+.waf-squad.squad-page .tab-container-wrap-1 .toggle-stats[aria-expanded=true]~.player-content .player-meta {
+    display: none
+}
+
+.waf-squad.squad-page .tab-container-wrap-1 .squad-item::before {
+    content: "";
+    background: url(/static-assets/images/cssimages/squad/player-m.jpg?v=3.1) bottom center no-repeat;
+    background-size: cover
+}
+
+.waf-squad.squad-page .tab-container-wrap-2 .squad-item::before {
+    content: "";
+    background: url(/static-assets/images/cssimages/squad/support-m.jpg?v=3.1) bottom center no-repeat;
+    background-size: cover
+}
+
+.waf-squad.squad-page .tab-container-wrap-2 .player-content {
+    background: var(--color-black-light)
+}
+
+@media screen and (min-width: 768px) {
+    .waf-squad.squad-page .squad-wrapper {
+        margin: 0 var(--half-space-negative)
+    }
+
+    .waf-squad.squad-page .squad-item {
+        flex-basis: calc(50% - var(--full-space));
+        width: calc(50% - var(--full-space));
+        margin-left: calc(var(--full-space)/2);
+        margin-right: calc(var(--full-space)/2)
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .waf-squad.squad-page {
+        overflow: hidden;
+        position: relative
+    }
+
+    .waf-squad.squad-page::before,
+    .waf-squad.squad-page::after {
+        background: url(/static-assets/images/svg/triangle-dark.svg?v=3.1) bottom center no-repeat;
+        background-size: contain;
+        content: "";
+        width: 50rem;
+        height: 50rem;
+        opacity: .4;
+        filter: grayscale(100%);
+        z-index: var(--bg-gradient)
+    }
+
+    .waf-squad.squad-page::after {
+        transform: rotate(180deg);
+        position: fixed;
+        top: 10rem;
+        right: -25rem
+    }
+
+    .waf-squad.squad-page::before {
+        position: fixed;
+        bottom: -7rem;
+        left: -25rem
+    }
+
+    .waf-squad.squad-page .squad-item {
+        flex-basis: calc(25% - var(--full-space));
+        width: calc(25% - var(--full-space));
+        margin-left: calc(var(--full-space)/2);
+        margin-right: calc(var(--full-space)/2)
+    }
+
+    .waf-squad.squad-page .head-wrap {
+        align-items: center
+    }
+
+    .waf-squad.squad-page .tab-section {
+        width: 35%
+    }
+
+    .waf-squad.squad-page .player-stats-count {
+        font-size: 4rem;
+        line-height: 4.2rem
+    }
+
+    .waf-squad.squad-page .player-stats-list {
+        margin-bottom: 0
+    }
+
+    .waf-squad.squad-page .player-thumbnail {
+        min-height: 32.5rem
+    }
+
+    .waf-squad.squad-page .player-content {
+        padding: calc(var(--quater-space) + var(--half-space));
+        padding-top: var(--full-space)
+    }
+
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item::before {
+        content: "";
+        background: url(/static-assets/images/cssimages/squad/player-m.jpg?v=3.1) bottom center no-repeat;
+        background-size: cover
+    }
+
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item .toggle-stats {
+        display: none
+    }
+
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item:hover .player-name,
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item:hover .player-meta,
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item:focus .player-name,
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item:focus .player-meta {
+        display: none
+    }
+
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item:hover .player-stats-list,
+    .waf-squad.squad-page .tab-container-wrap-1 .squad-item:focus .player-stats-list {
+        display: flex
+    }
+}

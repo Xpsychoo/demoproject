@@ -334,7 +334,7 @@
     font: 1rem/1.6rem "Romagna-Regular", sans-serif
 }
 
-#__layout{
+#home_layout {
     max-width: 100%;
 }
 
@@ -1116,31 +1116,34 @@ textarea {
     -moz-osx-font-smoothing: grayscale
 }
 
-.owlcarouselstyles{
+.owlcarouselstyles {
     width: 100%;
     height: 86vh;
     position: relative;
     overflow: hidden;
 }
 
-.owlcarouselstyles .item{
+.owlcarouselstyles .item {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
 }
-.owlcarouselstyles .item img{
+
+.owlcarouselstyles .item img {
     max-width: 100%;
 }
-.owlcarouselstyles .owl-nav{
+
+.owlcarouselstyles .owl-nav {
     position: absolute;
     left: 10%;
     bottom: 10%;
     z-index: 999;
 }
-.owlcarouselstyles .owl-nav button{
+
+.owlcarouselstyles .owl-nav button {
     border: 0.1em solid hsl(327 74% 67%) !important;
-    color: hsl(327 74% 67%)  !important;
+    color: hsl(327 74% 67%) !important;
     background-color: rgba(0, 0, 0, 0.351);
     height: 3.5em !important;
     width: 3.5em !important;
@@ -1149,7 +1152,8 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-.owlcarouselstyles .owl-nav button span{
+
+.owlcarouselstyles .owl-nav button span {
     font-size: 30px;
 }
 
@@ -1699,6 +1703,9 @@ textarea {
         max-width: 41.6666666667%
     }
 
+ 
+ 
+ 
     .col-lg-6 {
         flex: 0 0 50%;
         max-width: 50%
@@ -12552,7 +12559,7 @@ select {
 }
 
 @media screen and (max-width: 1000px) {
-    .owlcarouselstyles{
+    .owlcarouselstyles {
         height: 100%;
     }
 }
