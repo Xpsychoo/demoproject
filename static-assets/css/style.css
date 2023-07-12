@@ -334,11 +334,7 @@
     font: 1rem/1.6rem "Romagna-Regular", sans-serif
 }
 
-<<<<<<< HEAD
 #home_layout {
-=======
-#__layout {
->>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
     max-width: 100%;
 }
 
@@ -1174,18 +1170,6 @@ textarea {
     left: 10%;
     bottom: 10%;
     z-index: 999;
-<<<<<<< HEAD
-}
-
-.owlcarouselstyles .owl-nav button {
-    border: 0.1em solid hsl(327 74% 67%) !important;
-    color: hsl(327 74% 67%) !important;
-    background-color: rgba(0, 0, 0, 0.351);
-    height: 3.5em !important;
-    width: 3.5em !important;
-    border-radius: 50% !important;
-=======
->>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
     display: flex;
     align-items: center;
 }
@@ -1204,9 +1188,6 @@ textarea {
 }
 
 .owlcarouselstyles .owl-nav button span {
-<<<<<<< HEAD
-    font-size: 30px;
-=======
     font-size: 25px;
     color: white !important;
 }
@@ -1214,7 +1195,6 @@ textarea {
 .owl-theme .owl-nav [class*=owl-]:hover,
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: linear-gradient(to left, var(--color-primary), var(--color-secondary)) !important;
->>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
 }
 
 .icon-whatsapp:before {
