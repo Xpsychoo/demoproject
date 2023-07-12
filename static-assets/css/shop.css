@@ -234,7 +234,68 @@ textarea {
     border-radius: 8px;
 }
 
+.shopCarousel{
+    position: relative;
+}
+.shopCarousel .owl-stage-outer{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
 
+.shopCarousel .item{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.shopCarousel .item img{
+    max-width: 100%;
+}
+.shopCarousel .owl-nav{
+    position: absolute;
+    right: 20px;
+    bottom: -40px;
+    z-index: 999;
+    display: flex ;
+    align-items: center;
+}
+.shopCarousel .owl-dots {
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.shopCarousel .owl-dots .owl-dot span{
+    width: 7px !important;
+    height: 7px !important;
+    margin: 5px 3px !important;
+}
+.shopCarousel .owl-dots .owl-dot.active span{
+    width: 20px !important;
+    height: 7px !important;
+    color: #e96db1 !important;
+    background-color: #e96db1 !important;
+}
+
+.shopCarousel .owl-nav button{
+    border: 0px !important;
+    background-color: rgba(0, 0, 0, 0.351);
+    color: #484848;
+    height: 20px !important;
+    width: 20px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.shopCarousel .owl-nav button span{
+    font-size: 20px;
+}
+.shopCarousel .owl-theme .owl-nav button:hover{
+    background-color: rgba(0, 0, 0, 0.419) !important;
+}
 
 
 .eafQHD {
@@ -283,10 +344,8 @@ textarea {
     .hqRbcn {
         padding-left: 80px;
     }
+  
 }
-
-
-
 
 .PVpHF {
     background: #f6f7f8 linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%) no-repeat;
@@ -3041,5 +3100,18 @@ textarea {
     .jStZXf {
         width: 138px;
         height: 52px;
+    }
+   
+}
+@media (max-width:769px) {
+    .fivMJc{
+        display: none;
+    }
+    .gTWYZj{
+        padding-top: 56px;
+    }
+
+    .kMRszq .gmGzET label{
+        font-size: 15px !important;
     }
 }

@@ -334,7 +334,11 @@
     font: 1rem/1.6rem "Romagna-Regular", sans-serif
 }
 
+<<<<<<< HEAD
 #home_layout {
+=======
+#__layout {
+>>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
     max-width: 100%;
 }
 
@@ -1117,12 +1121,44 @@ textarea {
 }
 
 .owlcarouselstyles {
+<<<<<<< HEAD
+=======
+    position: relative;
+}
+
+.owlcarouselstyles .owl-stage-outer {
+>>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
     width: 100%;
     height: 86vh;
     position: relative;
     overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+#players.squad-listing .owl-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#players.squad-listing .owl-nav button span{
+    color: white !important;
+    font-size: 30px;
+}
+#players.squad-listing .owl-nav button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00000065;
+}
+
+>>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
 .owlcarouselstyles .item {
     display: flex;
     justify-content: center;
@@ -1139,6 +1175,7 @@ textarea {
     left: 10%;
     bottom: 10%;
     z-index: 999;
+<<<<<<< HEAD
 }
 
 .owlcarouselstyles .owl-nav button {
@@ -1148,13 +1185,37 @@ textarea {
     height: 3.5em !important;
     width: 3.5em !important;
     border-radius: 50% !important;
+=======
+>>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
     display: flex;
+    align-items: center;
+}
+
+
+.owlcarouselstyles .owl-nav button {
+    border: 0px !important;
+    color: hsl(327 74% 67%) !important;
+    background: #000000b4 !important;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50% !important;
+    display: flex !important;
     align-items: center;
     justify-content: center;
 }
 
 .owlcarouselstyles .owl-nav button span {
+<<<<<<< HEAD
     font-size: 30px;
+=======
+    font-size: 25px;
+    color: white !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover,
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: linear-gradient(to left, var(--color-primary), var(--color-secondary)) !important;
+>>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
 }
 
 .icon-whatsapp:before {
