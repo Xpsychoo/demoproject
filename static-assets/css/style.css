@@ -1149,6 +1149,11 @@ textarea {
     background-color: #00000065;
 }
 
+.players.squad-listing img{
+    position: relative;
+    z-index: 99999;
+}
+
 .owlcarouselstyles .item {
     display: flex;
     justify-content: center;
@@ -12591,7 +12596,7 @@ select {
 }
 
 @media screen and (max-width: 1000px) {
-    .owlcarouselstyles {
-        height: 100%;
+    .owlcarouselstyles .owl-stage-outer {
+        height: auto;
     }
 }
