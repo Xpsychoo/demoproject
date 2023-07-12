@@ -10951,6 +10951,10 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
     animation: swiper-preloader-spin 1s infinite linear
 }
 
+.text-light{
+    color: #fff !important;
+}
+
 .swiper-lazy-preloader-white {
     --swiper-preloader-color: #fff
 }
