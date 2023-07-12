@@ -1,0 +1,133 @@
+.main-wrapper {
+  background-image: url(../../static-assets/images/cssimages/squad/card-bgc9e4.jpg?v=3.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  border-radius: 0px;
+}
+.main-wrapper .detail-wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0 14rem;
+  color: white;
+}
+.main-wrapper .detail-wrapper .row {
+  height: 100%;
+  width: 100%;
+  align-items: flex-end;
+}
+.main-wrapper .detail-wrapper .row .img-sec {
+  height: 50rem;
+}
+.main-wrapper .detail-wrapper .row .img-sec img {
+  height: 100%;
+  width: auto;
+}
+.main-wrapper .detail-wrapper .title-sec .player-name {
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+  padding: 1em 0px;
+}
+.main-wrapper .detail-wrapper .title-sec .player-name .first-name {
+  font-family: "Romagna-Regular", sans-serif;
+  color: white;
+  font-size: 3.6rem;
+  line-height: 1;
+}
+.main-wrapper .detail-wrapper .title-sec .player-name .last-name {
+  font: 3.2rem/3.8rem "Romagna-Bold", sans-serif;
+  color: hsl(322, 95%, 46%);
+}
+.main-wrapper .detail-wrapper .title-sec .player-info {
+  display: flex;
+  align-items: center;
+  font: 1.4rem/2rem "Montserrat-Medium", sans-serif;
+  padding: 10px 0px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-info .country-flag {
+  width: 20px;
+  margin: 0px 10px;
+}
+.main-wrapper .detail-wrapper .title-sec .player-info .country-name {
+  margin-left: 10px;
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats {
+  padding: 10px 0px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats .box {
+  border-right: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats .box .head {
+  font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+  color: rgba(255, 255, 255, 0.5568627451);
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats .box .value {
+  font: 3.2rem/3.8rem "Romagna-Bold", sans-serif;
+}
+.main-wrapper .detail-wrapper .title-sec .player-others {
+  padding: 10px 0px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-others .box {
+  border-right: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-others .box .head {
+  font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+  color: rgba(255, 255, 255, 0.5568627451);
+}
+.main-wrapper .detail-wrapper .title-sec .player-others .box .value {
+  font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif;
+}
+.main-wrapper .detail-wrapper .player-about .head {
+  font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif;
+  margin: 10px 0px;
+}
+.main-wrapper .detail-wrapper .player-about .desc {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 765px) {
+  .main-wrapper {
+    padding: 10px;
+  }
+  .main-wrapper .detail-wrapper {
+    width: 95%;
+  }
+  .main-wrapper .detail-wrapper .row {
+    flex-direction: column-reverse;
+    margin-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .col-xl-8 {
+    padding-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .col-xl-8 .row {
+    margin-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .col-xl-8 .row .col-xl-3 {
+    padding: 0px 5px;
+  }
+  .main-wrapper .detail-wrapper .row .img-sec {
+    height: 50vh;
+  }
+  .main-wrapper .detail-wrapper .row .player-stats .row {
+    position: relative;
+    flex-direction: row;
+  }
+  .main-wrapper .detail-wrapper .row .player-stats .row .border-right-0 {
+    border-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .box .head {
+    font-size: 10px;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .box .value {
+    font-size: 10px;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .row {
+    position: relative;
+    flex-direction: row;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .row .border-right-0 {
+    border-right: 0px;
+  }
+}/*# sourceMappingURL=playerdetail.css.map */

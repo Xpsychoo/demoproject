@@ -210,6 +210,10 @@
     display: none;
     justify-content: center
 }
+.title.text-center{
+    text-align: center;
+    width: 100%;
+}
 
 .waf-squad.squad-page .player-stats-item {
     flex-basis: 33.3333333333%;
@@ -217,8 +221,18 @@
     flex-shrink: 0
 }
 
+.waf-squad.squad-page .card-action{
+    text-align: center;
+    padding-top: 20px;
+}
 .waf-squad.squad-page .view-more {
-    display: block
+    display: block;
+    background-color: #e50693;
+    color: #fff;
+    display: inline-block;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .waf-squad.squad-page .btn-buy {
