@@ -1121,21 +1121,16 @@ textarea {
 }
 
 .owlcarouselstyles {
-<<<<<<< HEAD
-=======
     position: relative;
 }
 
 .owlcarouselstyles .owl-stage-outer {
->>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
     width: 100%;
     height: 86vh;
     position: relative;
     overflow: hidden;
 }
 
-<<<<<<< HEAD
-=======
 #players.squad-listing .owl-nav{
     display: flex;
     align-items: center;
@@ -1158,7 +1153,11 @@ textarea {
     background-color: #00000065;
 }
 
->>>>>>> dc51f767875654bc0734cf159513ec7147e2053b
+.players.squad-listing img{
+    position: relative;
+    z-index: 99999;
+}
+
 .owlcarouselstyles .item {
     display: flex;
     justify-content: center;
@@ -12620,7 +12619,7 @@ select {
 }
 
 @media screen and (max-width: 1000px) {
-    .owlcarouselstyles {
-        height: 100%;
+    .owlcarouselstyles .owl-stage-outer {
+        height: auto;
     }
 }
