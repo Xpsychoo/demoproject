@@ -234,32 +234,36 @@ textarea {
     border-radius: 8px;
 }
 
-.shopCarousel{
+.shopCarousel {
     position: relative;
 }
-.shopCarousel .owl-stage-outer{
+
+.shopCarousel .owl-stage-outer {
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.shopCarousel .item{
+.shopCarousel .item {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     position: relative;
 }
-.shopCarousel .item img{
+
+.shopCarousel .item img {
     max-width: 100%;
 }
-.shopCarousel .owl-nav{
+
+.shopCarousel .owl-nav {
     position: absolute;
     right: 20px;
     bottom: -40px;
     z-index: 999;
-    display: flex ;
+    display: flex;
     align-items: center;
 }
+
 .shopCarousel .owl-dots {
     position: absolute;
     left: 20px;
@@ -268,19 +272,21 @@ textarea {
     display: flex;
     align-items: center;
 }
-.shopCarousel .owl-dots .owl-dot span{
+
+.shopCarousel .owl-dots .owl-dot span {
     width: 7px !important;
     height: 7px !important;
     margin: 5px 3px !important;
 }
-.shopCarousel .owl-dots .owl-dot.active span{
+
+.shopCarousel .owl-dots .owl-dot.active span {
     width: 20px !important;
     height: 7px !important;
     color: #e96db1 !important;
     background-color: #e96db1 !important;
 }
 
-.shopCarousel .owl-nav button{
+.shopCarousel .owl-nav button {
     border: 0px !important;
     background-color: rgba(0, 0, 0, 0.351);
     color: #484848;
@@ -290,10 +296,12 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-.shopCarousel .owl-nav button span{
+
+.shopCarousel .owl-nav button span {
     font-size: 20px;
 }
-.shopCarousel .owl-theme .owl-nav button:hover{
+
+.shopCarousel .owl-theme .owl-nav button:hover {
     background-color: rgba(0, 0, 0, 0.419) !important;
 }
 
@@ -344,7 +352,7 @@ textarea {
     .hqRbcn {
         padding-left: 80px;
     }
-  
+
 }
 
 .PVpHF {
@@ -726,7 +734,7 @@ textarea {
 
 
 
-.gQPTcE {
+.heading-label {
     cursor: inherit;
 }
 
@@ -796,7 +804,7 @@ textarea {
 
 
 
-.IDfRy {
+.shop-signup-text-img-container {
     margin-right: 8px;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -810,7 +818,7 @@ textarea {
 
 
 
-.kKTYxS {
+.shop-header-right {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -823,7 +831,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .kKTYxS {
+    .shop-header-right {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -838,7 +846,7 @@ textarea {
 
 
 
-.hyQNai {
+.signup-text-span {
     margin-left: 4px;
 }
 
@@ -976,7 +984,7 @@ textarea {
 
 
 
-.cTngJk {
+.shop-header-container {
     -webkit-transition: height 0.2s ease;
     transition: height 0.2s ease;
     position: fixed;
@@ -989,7 +997,7 @@ textarea {
 
 
 
-.hZyCPM {
+.shop-header-sub-col {
     background-color: #E50695;
     width: 100%;
     margin: auto;
@@ -1007,7 +1015,7 @@ textarea {
 
 
 
-.gHYeOK {
+.logo-a {
     aspect-ratio: 121/45;
     position: relative;
     width: 121px;
@@ -1027,7 +1035,7 @@ textarea {
 
 
 
-.hnBGyR {
+.logo-sub-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1042,7 +1050,7 @@ textarea {
 
 
 
-.kdHeZp {
+.logo-container {
     width: 90%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1087,7 +1095,7 @@ textarea {
 
 
 
-.kZOVvu {
+.footer-container {
     margin: auto;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1100,14 +1108,14 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .kZOVvu {
+    .footer-container {
         gap: 12px;
     }
 }
 
 
 @media (min-width:1025px) {
-    .kZOVvu {
+    .footer-container {
         gap: 24px;
         padding: 0 80px;
     }
@@ -1116,7 +1124,7 @@ textarea {
 
 
 
-.jfdfcz {
+.footer-container-links {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1129,7 +1137,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .jfdfcz {
+    .footer-container-links {
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row;
@@ -1184,20 +1192,20 @@ textarea {
 
 
 
-.eQshQW {
+.shop-footer-section {
     background-color: #E50695;
 }
 
 
 @media (max-width:1025px) {
-    .eQshQW {
+    .shop-footer-section {
         padding: 16px 16px 90px;
     }
 }
 
 
 @media (min-width:1025px) {
-    .eQshQW {
+    .shop-footer-section {
         padding: 24px 0;
     }
 }
@@ -1209,7 +1217,7 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .doRvQI {
+    .footer-logo-section {
         padding-right: 0;
     }
 }
@@ -1217,7 +1225,7 @@ textarea {
 
 
 
-.hvVUoE {
+.footer-logo {
     margin-top: 16px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1238,7 +1246,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .hvVUoE {
+    .footer-logo {
         -webkit-box-pack: left;
         -webkit-justify-content: left;
         -ms-flex-pack: left;
@@ -1250,14 +1258,14 @@ textarea {
 
 
 @media (max-width:769px) {
-    .jXOHbp {
+    .useful-links {
         margin-top: 20px;
     }
 }
 
 
 @media (min-width:769px) {
-    .jXOHbp {
+    .useful-links {
         margin-top: auto;
     }
 }
@@ -1265,7 +1273,7 @@ textarea {
 
 
 
-.ebffq {
+.useful-links-heading {
     font-size: 14px;
     font-weight: 600;
     line-height: 1.43;
@@ -1282,7 +1290,7 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .hPpBoV {
+    .useful-links-container {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -1300,7 +1308,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .hPpBoV {
+    .useful-links-container {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -1312,7 +1320,7 @@ textarea {
 
 
 
-.dlWYbz {
+.ulit {
     width: 1px;
     height: 14px;
     background-color: #FFFFFF;
@@ -1321,7 +1329,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .dlWYbz {
+    .ulit {
         display: none;
     }
 }
@@ -1330,7 +1338,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .klTZTg {
+    .useful-links-item {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -1341,7 +1349,7 @@ textarea {
 
 
 
-.hCdghd {
+.useful-links-item-label {
     font-size: 14px;
     line-height: 1.43;
     white-space: nowrap;
@@ -1355,7 +1363,7 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .hCdghd {
+    .useful-links-item-label {
         margin-bottom: 0;
     }
 }
@@ -1363,7 +1371,7 @@ textarea {
 
 
 
-.bjgRqz {
+.useful-links-item-label-border {
     width: 1px;
     background-color: #FFFFFF;
     margin: 0 13px 0 10px;
@@ -1372,7 +1380,7 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .bjgRqz {
+    .useful-links-item-label-border {
         display: none;
     }
 }
@@ -1593,21 +1601,21 @@ textarea {
 
 
 
-.eoDDBb {
+.shop-slider-container-text {
     display: none;
 }
 
 
 
 
-.gTWYZj {
+.shop-slider-container {
     min-height: 100vh;
     position: relative;
 }
 
 
 @media (min-width:769px) {
-    .gTWYZj {
+    .shop-slider-container {
         margin-top: 56px;
     }
 }
@@ -1615,7 +1623,7 @@ textarea {
 
 
 
-.ikYygq {
+.slider-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1629,7 +1637,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .ikYygq {
+    .slider-container {
         padding-top: 0;
         gap: 24px;
     }
@@ -1767,17 +1775,17 @@ textarea {
 
 
 
-.hqPsYf {
+/* . {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding-bottom: 16px;
-}
+} */
 
 
 
 
-.dMdZis {
+.show-category-head {
     margin: auto;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1790,14 +1798,14 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .dMdZis {
+    .show-category-head {
         gap: 12px;
     }
 }
 
 
 @media (min-width:1025px) {
-    .dMdZis {
+    .show-category-head {
         gap: 24px;
         padding: 0 80px;
     }
@@ -1806,7 +1814,7 @@ textarea {
 
 
 
-.oHqES {
+.category-item-img {
     background-color: undefined;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1820,7 +1828,7 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .oHqES {
+    .category-item-img {
         width: 72px;
         min-width: 72px;
         height: 72px;
@@ -1829,7 +1837,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .oHqES {
+    .category-item-img {
         object-fit: contain;
         width: 146px;
         min-width: 146px;
@@ -1842,7 +1850,7 @@ textarea {
 
 
 
-.jFwWhT {
+.category-item-label {
     text-align: center;
     margin-top: 12px;
     color: #5967C4;
@@ -1850,7 +1858,7 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .jFwWhT {
+    .category-item-label {
         font-size: 12px;
         font-weight: normal;
         font-stretch: normal;
@@ -1867,7 +1875,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .jFwWhT {
+    .category-item-label {
         font-size: 24px;
         font-weight: normal;
         font-stretch: normal;
@@ -1885,7 +1893,7 @@ textarea {
 
 
 
-.kMRszq {
+.category-item-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1903,7 +1911,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .kMRszq {
+    .category-item-container {
         gap: 8px;
         padding-left: 16px;
     }
@@ -1911,20 +1919,20 @@ textarea {
 
 
 @media (min-width:769px) {
-    .kMRszq {
+    .category-item-container {
         gap: 12px;
     }
 }
 
 
-.kMRszq::-webkit-scrollbar {
+.category-item-container::-webkit-scrollbar {
     display: none;
 }
 
 
 
 
-.gmGzET {
+.category-item {
     width: 146px;
     height: 146px;
     display: -webkit-box;
@@ -1945,7 +1953,7 @@ textarea {
 
 
 
-.cNDTGL {
+.shop-category-a {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1958,7 +1966,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .cNDTGL {
+    .shop-category-a {
         padding-left: 16px;
     }
 }
@@ -1967,7 +1975,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .fDqIEk {
+    .cateogyr-head-span {
         width: 24px;
         height: 24px;
     }
@@ -1975,7 +1983,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .fDqIEk {
+    .cateogyr-head-span {
         width: 40px;
         height: 40px;
     }
@@ -1984,7 +1992,7 @@ textarea {
 
 
 
-.gjqvsc {
+.autographed-jersey-rate-section {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1999,7 +2007,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .gjqvsc {
+    .autographed-jersey-rate-section {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2009,7 +2017,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gjqvsc {
+    .autographed-jersey-rate-section {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2020,14 +2028,14 @@ textarea {
 
 
 
-.jtVFOg {
+.autographed-jersey-rate-price {
     font-weight: 600;
     color: #121212;
 }
 
 
 @media (max-width:1025px) {
-    .jtVFOg {
+    .autographed-jersey-rate-price {
         font-size: 14px;
         font-weight: 600;
         line-height: 1.43;
@@ -2041,7 +2049,7 @@ textarea {
 
 
 @media (min-width:1025px) {
-    .jtVFOg {
+    .autographed-jersey-rate-price {
         font-size: 20px;
         margin-right: 8px;
         line-height: 1.6;
@@ -2055,13 +2063,13 @@ textarea {
 
 
 
-.gqipOU {
+.autographed-jersey-rate-mrp {
     position: relative;
 }
 
 
 @media (max-width:769px) {
-    .gqipOU {
+    .autographed-jersey-rate-mrp {
         font-size: 12px;
         line-height: 1.33;
         -webkit-letter-spacing: 0.24px;
@@ -2074,7 +2082,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gqipOU {
+    .autographed-jersey-rate-mrp {
         font-size: 18px;
         line-height: 1.67;
         -webkit-letter-spacing: 0.36px;
@@ -2086,7 +2094,7 @@ textarea {
 }
 
 
-.gqipOU::after {
+.autographed-jersey-rate-mrp::after {
     content: ' ';
     height: 1px;
     -webkit-box-flex: 0;
@@ -2103,7 +2111,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .gqipOU::after {
+    .autographed-jersey-rate-mrp::after {
         width: 24px;
         left: 0;
         top: 3px;
@@ -2112,7 +2120,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gqipOU::after {
+    .autographed-jersey-rate-mrp::after {
         font-size: 16px;
         line-height: 1.38;
         -webkit-letter-spacing: 0.48px;
@@ -2129,7 +2137,7 @@ textarea {
 
 
 
-.JZedA {
+.autographed-jersey-rate-mrp-cut {
     width: 1px;
     min-width: 1px;
     -webkit-box-flex: 0;
@@ -2142,14 +2150,14 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .JZedA {
+    .autographed-jersey-rate-mrp-cut {
         height: 18px;
     }
 }
 
 
 @media (min-width:1025px) {
-    .JZedA {
+    .autographed-jersey-rate-mrp-cut {
         height: 21px;
     }
 }
@@ -2157,7 +2165,7 @@ textarea {
 
 
 
-.iFHHjZ {
+.autographed-jersey-rate-off {
     font-weight: 600;
     text-align: left;
     color: #00aa50;
@@ -2165,7 +2173,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .iFHHjZ {
+    .autographed-jersey-rate-off {
         font-size: 12px;
         line-height: 1.33;
         -webkit-letter-spacing: 0.24px;
@@ -2178,7 +2186,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .iFHHjZ {
+    .autographed-jersey-rate-off {
         font-size: 18px;
         line-height: 1.67;
         -webkit-letter-spacing: 0.36px;
@@ -2192,13 +2200,13 @@ textarea {
 
 
 
-.dDWzNh {
+.autographed-jersey-section-body-a {
     margin-right: 8px;
 }
 
 
 @media (min-width:769px) {
-    .dDWzNh {
+    .autographed-jersey-section-body-a {
         margin-right: 16px;
     }
 }
@@ -2206,7 +2214,7 @@ textarea {
 
 
 
-.bbVKgp {
+.autographed-jersey-img-section {
     width: 120px;
     height: 160px;
     border: solid 0.1px #E7E9F7;
@@ -2217,7 +2225,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .bbVKgp {
+    .autographed-jersey-img-section {
         width: 221px;
         height: 308px;
         cursor: pointer;
@@ -2227,7 +2235,7 @@ textarea {
 
 
 
-.jPvNxJ {
+.autographed-jersey-title {
     margin-top: 8px;
     text-overflow: ellipsis;
     -webkit-line-clamp: 1;
@@ -2243,7 +2251,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .jPvNxJ {
+    .autographed-jersey-title {
         font-size: 12px;
         max-width: 120px;
         -webkit-letter-spacing: 0.36px;
@@ -2255,7 +2263,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .jPvNxJ {
+    .autographed-jersey-title {
         font-size: 18px;
         font-weight: 600;
         line-height: 1.33;
@@ -2271,7 +2279,7 @@ textarea {
 
 
 
-.kRRFpd {
+.autographed-jersey-sub-title {
     font-size: 14px;
     line-height: 1.43;
     -webkit-letter-spacing: 0.25px;
@@ -2289,14 +2297,14 @@ textarea {
 
 
 @media (max-width:769px) {
-    .kRRFpd {
+    .autographed-jersey-sub-title {
         max-width: 120px;
     }
 }
 
 
 @media (min-width:769px) {
-    .kRRFpd {
+    .autographed-jersey-sub-title {
         max-width: 221px;
     }
 }
@@ -2304,7 +2312,7 @@ textarea {
 
 
 
-.iXIQXd {
+.autographed-jersey-img {
     width: 100%;
     height: 160px;
     -webkit-box-flex: 0;
@@ -2318,7 +2326,7 @@ textarea {
 
 
 @media(min-width:769px) {
-    .iXIQXd {
+    .autographed-jersey-img {
         height: 308px;
     }
 }
@@ -2326,7 +2334,7 @@ textarea {
 
 
 
-.hrmAmS {
+.autographed-jersey-section {
     margin: auto;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2339,14 +2347,14 @@ textarea {
 
 
 @media (max-width:1025px) {
-    .hrmAmS {
+    .autographed-jersey-section {
         gap: 12px;
     }
 }
 
 
 @media (min-width:1025px) {
-    .hrmAmS {
+    .autographed-jersey-section {
         gap: 24px;
         padding: 0 80px;
     }
@@ -2355,7 +2363,7 @@ textarea {
 
 
 
-.jznGyS {
+.autographed-jersey-section-head-label {
     cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2369,7 +2377,7 @@ textarea {
 
 
 
-.deNaKZ {
+.autographed-jersey-section-head {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2378,7 +2386,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .deNaKZ {
+    .autographed-jersey-section-head {
         padding-left: 16px;
     }
 }
@@ -2386,7 +2394,7 @@ textarea {
 
 
 
-.fPPUHj {
+.autographed-jersey-section-body {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2402,13 +2410,13 @@ textarea {
 
 
 @media (max-width:769px) {
-    .fPPUHj {
+    .autographed-jersey-section-body {
         padding-left: 16px;
     }
 }
 
 
-.fPPUHj::-webkit-scrollbar {
+.autographed-jersey-section-body::-webkit-scrollbar {
     display: none;
 }
 
@@ -2417,7 +2425,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .fPPUHj {
+    .autographed-jersey-section-body {
         padding-left: 0;
     }
 }
@@ -2441,7 +2449,7 @@ textarea {
 
 
 
-.grxszN {
+.jersey-section {
     background-color: #ffffff;
     background-image: url('../fancode.com/skillup-uploads/prod-images/2023/03/Trending-BG5.png');
     background-size: cover;
@@ -2449,7 +2457,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .grxszN {
+    .jersey-section {
         padding: 30px 5% 60px;
     }
 }
@@ -2457,7 +2465,7 @@ textarea {
 
 
 
-.dGIoba {
+.jersey-section-header {
     text-align: left;
     color: #ffffff;
     display: -webkit-box;
@@ -2468,7 +2476,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .dGIoba {
+    .jersey-section-header {
         font-size: 18px;
         margin-bottom: 8px;
         padding-top: 8px;
@@ -2484,7 +2492,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .dGIoba {
+    .jersey-section-header {
         font-size: 32px;
         margin-bottom: 32px;
     }
@@ -2493,7 +2501,7 @@ textarea {
 
 
 
-.wMUOS {
+.jersey-left-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2502,7 +2510,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .wMUOS {
+    .jersey-left-container {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
@@ -2517,7 +2525,7 @@ textarea {
 
 
 
-.iXGscc {
+.jersey-right-section-image {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2526,7 +2534,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .iXGscc {
+    .jersey-right-section-image {
         margin-top: 12px;
         overflow: scroll;
         -webkit-overflow-scrolling: touch;
@@ -2540,14 +2548,14 @@ textarea {
         gap: 8px;
     }
 
-    .iXGscc::-webkit-scrollbar {
+    .jersey-right-section-image::-webkit-scrollbar {
         display: none;
     }
 }
 
 
 @media (min-width:769px) {
-    .iXGscc {
+    .jersey-right-section-image {
         -webkit-flex-flow: wrap;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
@@ -2559,13 +2567,13 @@ textarea {
 
 
 
-.gewmWh {
+.jersey-right-image {
     border-radius: 4px;
 }
 
 
 @media (max-width:769px) {
-    .gewmWh {
+    .jersey-right-image {
         width: 76px;
         height: 114px;
         min-width: 76px;
@@ -2575,7 +2583,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gewmWh {
+    .jersey-right-image {
         width: 146px;
         height: 204px;
         border-radius: 12px;
@@ -2584,7 +2592,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gewmWh {
+    .jersey-right-image {
         border-radius: 12px;
         border: solid 2px #E50695;
         margin-left: 16px;
@@ -2629,7 +2637,7 @@ textarea {
 
 
 
-.jwygXs {
+.jersey-left-container-sub {
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
     -ms-flex-positive: 0;
@@ -2645,7 +2653,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .jwygXs {
+    .jersey-left-container-sub {
         width: 100%;
         height: 184px;
     }
@@ -2653,7 +2661,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .jwygXs {
+    .jersey-left-container-sub {
         width: 631px;
         min-width: 631px;
         height: 419px;
@@ -2663,7 +2671,7 @@ textarea {
 
 
 
-.kPbDpB {
+.jersey-left-container-semi {
     width: 60%;
     background-color: #1226AA;
     height: 100%;
@@ -2681,14 +2689,14 @@ textarea {
 
 
 @media (max-width:769px) {
-    .kPbDpB {
+    .jersey-left-container-semi {
         padding: 24px 10px 14px;
     }
 }
 
 
 @media (min-width:769px) {
-    .kPbDpB {
+    .jersey-left-container-semi {
         padding: 50px 24px 46px;
         position: relative;
     }
@@ -2697,7 +2705,7 @@ textarea {
 
 
 
-.eBCtu {
+.jersey-left-text-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2714,14 +2722,14 @@ textarea {
 
 
 @media (max-width:769px) {
-    .eBCtu {
+    .jersey-left-text-container {
         margin-top: 42px;
     }
 }
 
 
 @media (min-width:769px) {
-    .eBCtu {
+    .jersey-left-text-container {
         margin-top: 118px;
         position: absolute;
         bottom: 0;
@@ -2734,14 +2742,14 @@ textarea {
 
 
 
-.gHMYXz {
+.jersey-left-rate-image-section {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
 
 @media (max-width:769px) {
-    .gHMYXz {
+    .jersey-left-rate-image-section {
         width: 158px;
         height: 184px;
     }
@@ -2749,7 +2757,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gHMYXz {
+    .jersey-left-rate-image-section {
         width: 308px;
         height: 419px;
     }
@@ -2758,7 +2766,7 @@ textarea {
 
 
 
-.gxprnw {
+.jersey-left-rate-image {
     width: 100%;
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
@@ -2771,7 +2779,7 @@ textarea {
 
 
 
-.gXjwBU {
+.jersey-left-text-first {
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -2782,7 +2790,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .gXjwBU {
+    .jersey-left-text-first {
         font-size: 14px;
         font-weight: 600;
         line-height: 1.43;
@@ -2796,7 +2804,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .gXjwBU {
+    .jersey-left-text-first {
         font-size: 26px;
         font-weight: bold;
         line-height: 1.33;
@@ -2808,7 +2816,7 @@ textarea {
 
 
 
-.fnNgWO {
+.jersey-left-text-secound {
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -2820,7 +2828,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .fnNgWO {
+    .jersey-left-text-secound {
         font-size: 12px;
         line-height: 1.33;
         -webkit-letter-spacing: 0.2px;
@@ -2834,7 +2842,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .fnNgWO {
+    .jersey-left-text-secound {
         font-size: 18px;
         line-height: 1.25;
         -webkit-letter-spacing: 0.5px;
@@ -2848,7 +2856,7 @@ textarea {
 
 
 
-.lnUZNu {
+.jersey-left-rate-section {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2866,7 +2874,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .lnUZNu {
+    .jersey-left-rate-section {
         margin-top: 24px;
         padding-right: 24px;
     }
@@ -2876,7 +2884,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .bqtEWb {
+    .jersey-left-rate {
         margin-top: 28px;
     }
 }
@@ -2884,7 +2892,7 @@ textarea {
 
 
 
-.kofGHN {
+.jersey-left-rate-1 {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.6;
@@ -2901,7 +2909,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .kofGHN {
+    .jersey-left-rate-1 {
         font-size: 40px;
         font-weight: 600;
     }
@@ -2910,7 +2918,7 @@ textarea {
 
 
 
-.hLFipL {
+.jersey-left-rate-2 {
     font-size: 12px;
     font-weight: 600;
     line-height: 1.33;
@@ -2929,7 +2937,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .hLFipL {
+    .jersey-left-rate-2 {
         font-size: 24px;
         font-weight: normal;
         line-height: 1.33;
@@ -2939,7 +2947,7 @@ textarea {
 
 
 
-.tClnd {
+.jersey-left-rate-buy {
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
     -ms-flex-positive: 0;
@@ -2962,7 +2970,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .tClnd {
+    .jersey-left-rate-buy {
         gap: 10px;
         padding: 8px 12px;
         border-radius: 4px;
@@ -2978,7 +2986,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .tClnd {
+    .jersey-left-rate-buy {
         -webkit-box-flex: 0;
         -webkit-flex-grow: 0;
         -ms-flex-positive: 0;
@@ -3010,7 +3018,7 @@ textarea {
 
 
 
-.hJUeRe {
+.jersey-left-container-semi-hash {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3022,7 +3030,7 @@ textarea {
 
 
 @media (min-width:769px) {
-    .hJUeRe {
+    .jersey-left-container-semi-hash {
         position: absolute;
         top: 48px;
     }
@@ -3031,14 +3039,14 @@ textarea {
 
 
 
-.eIjKjN {
+.jersey-left-container-semi-hash-text {
     font-weight: 600;
     font-style: italic;
 }
 
 
 @media (min-width:769px) {
-    .eIjKjN {
+    .jersey-left-container-semi-hash-text {
         font-size: 26px;
         font-weight: 600;
         line-height: 1.43;
@@ -3054,7 +3062,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .eIjKjN {
+    .jersey-left-container-semi-hash-text {
         font-size: 14px;
         line-height: 1.27;
         -webkit-letter-spacing: 0.22px;
@@ -3070,7 +3078,7 @@ textarea {
 
 
 
-.jStZXf {
+.jersey-left-container-semi-hash-section {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -3089,7 +3097,7 @@ textarea {
 
 
 @media (max-width:769px) {
-    .jStZXf {
+    .jersey-left-container-semi-hash-section {
         width: 48px;
         height: 18px;
     }
@@ -3097,21 +3105,23 @@ textarea {
 
 
 @media (min-width:769px) {
-    .jStZXf {
+    .jersey-left-container-semi-hash-section {
         width: 138px;
         height: 52px;
     }
-   
+
 }
+
 @media (max-width:769px) {
-    .fivMJc{
+    .fivMJc {
         display: none;
     }
-    .gTWYZj{
+
+    .shop-slider-container {
         padding-top: 56px;
     }
 
-    .kMRszq .gmGzET label{
+    .category-item-container .category-item label {
         font-size: 15px !important;
     }
 }

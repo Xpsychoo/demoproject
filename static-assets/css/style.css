@@ -2227,7 +2227,7 @@ input[type=number] {
     width: 10rem;
     height: 10rem;
     padding: 1.5rem;
-    background-image: url(../../static-assets/images/svg/logoc9e4.svg?v=3.1);
+    background-image: url(../../static-assets/images/svg/logo69af.svg?v=3.1);
     background-size: 4.5rem;
     background-position: center center;
     background-repeat: no-repeat
@@ -3223,7 +3223,7 @@ body {
 
 .site-logo .logo {
     display: block;
-    background: url("../../static-assets/images/svg/logoc9e4.svg?v=3.1") center no-repeat;
+    background: url("../../static-assets/images/svg/logo69af.svg?v=3.1") center no-repeat;
     background-size: contain
 }
 
@@ -7577,7 +7577,7 @@ body {
     content: "";
     width: 5rem;
     height: 5rem;
-    background: url("../../static-assets/images/svg/royal-tv-logoc9e4.svg?v=3.1") no-repeat;
+    background: url("../../static-assets/images/svg/royal-tv-logo69af.svg?v=3.1") no-repeat;
     background-size: 100%;
     left: 0;
     position: absolute;
@@ -11587,7 +11587,7 @@ button.swiper-pagination-bullet {
 
 .waf-form-section .client-logo:after {
     content: "";
-    background: url(../../static-assets/images/svg/logoc9e4.svg?v=3.1) center no-repeat;
+    background: url(../../static-assets/images/svg/logo69af.svg?v=3.1) center no-repeat;
     width: 100%;
     height: 100%;
     position: absolute;

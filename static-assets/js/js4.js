@@ -1,2 +1,0 @@
-let squadSwiperConfig = { "navigation": { "nextEl": ".home-squad .swiper-button-next", "prevEl": ".home-squad .swiper-button-prev" }, "spaceBetween": 10, "slidesPerView": 1.5, "centeredSlides": true, "setWrapperSize": true };
-    window.squadSwiper = new Swiper(".waf-component.waf-squad.widget-layout-06 .squad-listing", squadSwiperConfig);
