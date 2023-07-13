@@ -99,13 +99,13 @@
 
 .dark-mode .waf-squad.squad-page .tab-container-wrap-1 .squad-item::before {
     content: "";
-    background: url(/static-assets/images/cssimages/squad/player-dark-m.jpg?v=3.1) bottom center no-repeat;
+    background: url('../images/cssimages/squad/player-dark-m.jpg?v=3.1') bottom center no-repeat;
     background-size: cover
 }
 
 .dark-mode .waf-squad.squad-page .tab-container-wrap-2 .squad-item::before {
     content: "";
-    background: url(/static-assets/images/cssimages/squad/support-dark-m.jpg?v=3.1) bottom center no-repeat;
+    background: url('../images/cssimages/squad/support-dark-m.jpg?v=3.1') bottom center no-repeat;
     background-size: cover
 }
 
@@ -274,13 +274,13 @@
 
 .waf-squad.squad-page .tab-container-wrap-1 .squad-item::before {
     content: "";
-    background: url(/static-assets/images/cssimages/squad/player-m.jpg?v=3.1) bottom center no-repeat;
+    background: url('../images/cssimages/squad/player-m.jpg?v=3.1') bottom center no-repeat;
     background-size: cover
 }
 
 .waf-squad.squad-page .tab-container-wrap-2 .squad-item::before {
     content: "";
-    background: url(/static-assets/images/cssimages/squad/support-m.jpg?v=3.1) bottom center no-repeat;
+    background: url('../images/cssimages/squad/support-m.jpg?v=3.1') bottom center no-repeat;
     background-size: cover
 }
 
@@ -309,7 +309,7 @@
 
     .waf-squad.squad-page::before,
     .waf-squad.squad-page::after {
-        background: url(/static-assets/images/svg/triangle-dark.svg?v=3.1) bottom center no-repeat;
+        background: url('../images/svg/triangle-dark.svg?v=3.1') bottom center no-repeat;
         background-size: contain;
         content: "";
         width: 50rem;
@@ -367,7 +367,7 @@
 
     .waf-squad.squad-page .tab-container-wrap-1 .squad-item::before {
         content: "";
-        background: url(/static-assets/images/cssimages/squad/player-m.jpg?v=3.1) bottom center no-repeat;
+        background: url('../images/cssimages/squad/player-m.jpg?v=3.1') bottom center no-repeat;
         background-size: cover
     }
 
