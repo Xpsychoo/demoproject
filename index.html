@@ -12,13 +12,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="static-assets/favicons/favicon-32x32e4d0.png?v=5.24">
   <link rel="icon" type="image/png" sizes="16x16" href="static-assets/favicons/favicon-16x16e4d0.png?v=5.24">
   <link rel="shortcut icon" href="static-assets/favicons/favicone4d0.ico?v=5.24">
-  <link rel="stylesheet" href="static-assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="static-assets/css/style.css">
 </head>
 
 <body class="page-scroll home">
@@ -56,43 +58,28 @@
                 </ul>
               </section>
               <div class="user-module">
-                <div class="theme-module"><span class="theme-text">Dark Mode</span>
-                  <div class="theme-toggle" id="toggleTheme">
-                    <input type="checkbox" name="theme-toggle"
-                      class="toggle-checkbox">
-                    <label for="toggleTheme" class="toggle-switch"></label>
-                  </div>
-                </div>
+                
                 <div class="site-login">
                   <div class="login-section hideAfterLogin">
-                    <button class="btn-login btn-menu" aria-label="open language" aria-expanded="false"
-                      aria-haspopup="false"><span class="icon"></span> <span class="btn-text">Login</span>
+                    <button class="btn-login btn-menu" ><span class="icon"></span> <span class="btn-text">Login</span>
                     </button>
-                    <div class="list-wrap"><a href="#" target title="login" class="btn-site active"><span
-                          class="btn-text">Login</span></a> <a href="#" target title="register" class="btn-site"><span
-                          class="btn-text">Register</span></a></div>
                   </div>
-                  <div class="login-section logged-in showAfterLogin profileImageTargetContainer" style="display:none">
-                    <button aria-label="open language" aria-expanded="false" aria-haspopup="false"
-                      class="btn-login btn-menu"><img alt="user photo" class="user-photo profileImageTarget"
-                        style="display:none"> <span class="temp-user" style="display:none"></span> <span
-                        class="btn-text userNameTarget"></span></button>
-                    <div class="list-wrap"><a href="#" title="profile" class="btn-site active"><span class="btn-text">My
-                          Profile</span></a> <a href="javascript:void(0)" title="sign-out"
-                        class="btn-site logoutButton"><span class="btn-text">Logout</span></a></div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
             <div class="header-bottom">
               <nav class="site-nav">
                 <ul class="navigation-link-list">
-                  <li class="navigation-link submenu more-menu"><button aria-label="Latest Updates"
+                  <li class="navigation-link submenu more-menu">
+                    <button aria-label="Latest Updates"
                       aria-expanded="false" aria-haspopup="true" class="nav-anchor"><span class="btn-text">Latest
                         Updates</span></button>
                     <ul class="sub-ul">
-                      <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span class="nav-text">News
-                            &amp; Features</span></a></li>
+                      <li class="sub-nav-link"> 
+                        <a href="#" target="" class="nav-anchor"><span class="nav-text">News
+                            &amp; Features</span></a>
+                          </li>
                       <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span
                             class="nav-text">Photos</span></a></li>
                       <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span
@@ -169,20 +156,8 @@
         <section class="secondary-navigation">
           <ul class="secondary-navigation-link-list"></ul>
         </section>
-        <section class="waf-row" style="position: relative; left: 0px; top: 0px;">
-          <div class="waf-view">
-            <div class="container-fluid">
-              <div class="row sticky-container">
-                <div class="col-lg-12">
-                  <section class="site-content">
-                    <div class="waf-component waf-scorestrip widget-layout-07 si-waf-widget" style="display:none;">
-                    </div>
-                  </section>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
+
         <div class="owl-carousel owl-theme owlcarouselstyles" id="HeaderCarousel">
           <div class="item">
             <img src="static-assets/demoimg.webp" width="100%" alt="">
@@ -191,6 +166,434 @@
             <img src="static-assets/demoimg.webp" width="100%" alt="">
           </div>
         </div>
+        <!-- Score Card -->
+        <section class="waf-row">
+          <div class="waf-view">
+            <div class="container-fluid">
+              <div class="row  sticky-container">
+                <div class="col-lg-12">
+                  <section class="site-content">
+                    <div class="waf-component waf-fixtures">
+                      <div class="layout-wrapper">
+                        <div class="waf-body  container">
+                          <ul class="nav nav-pills mb-3 score-card-tab-head" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">
+                                Fixtures
+                              </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link d-flex align-items-center" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">
+                                <img src="static-assets/images/svg/livec9e4.svg" alt="live" style="height: 15px;"> Live
+                              </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">
+                                Result
+                              </button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                              aria-labelledby="pills-home-tab">
+                              <div class="tab-container-item recent-tab-container">
+                                <div class="tab-container-wrapper d-flex justify-content-center">
+                                  <div class="card-list row">
+                                    <div class="col-md-4">
+                                      <div class="card-item recent ">
+
+                                        <div class="card-head">
+                                          <span class="status">Recent</span>
+                                          <div class="card-number">
+                                            <span class="text">Match</span>
+                                            <span class="number">4</span>
+                                          </div>
+                                          <div class="date-time">
+                                            <span class="meta date">
+                                              Apr 02, 2023 15:30
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <div class="card-content">
+                                            <div class="team-detail">
+                                              <div class="team-wrapper">
+                                                <div class="team team-a">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/rr.png" alt="Sunrisers Hyderabad"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">131/8 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="match-time">
+                                                  <div class="match-time-wrap">
+                                                    <p class="time-text">
+                                                      vs
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="team team-b team-current">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/sun.png" alt="Rajasthan Royals"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">203/5 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-footer">
+                                            <div class="card-footer-content mt-3">
+                                              <p class="card-footer-text">
+                                                Rajasthan Royals beat Sunrisers Hyderabad by 72 runs
+                                              </p>
+                                            </div>
+                                            <div class="btn-group"><a href="#" title="View more"
+                                                class="btn btn-more btn-scorecard"><span
+                                                  class="btn-text">View More</span></a> </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card-item recent ">
+
+                                        <div class="card-head">
+                                          <span class="status">Recent</span>
+                                          <div class="card-number">
+                                            <span class="text">Match</span>
+                                            <span class="number">4</span>
+                                          </div>
+                                          <div class="date-time">
+                                            <span class="meta date">
+                                              Apr 02, 2023 15:30
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <div class="card-content">
+                                            <div class="team-detail">
+                                              <div class="team-wrapper">
+                                                <div class="team team-a">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/rr.png" alt="Sunrisers Hyderabad"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">131/8 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="match-time">
+                                                  <div class="match-time-wrap">
+                                                    <p class="time-text">
+                                                      vs
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="team team-b team-current">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/sun.png" alt="Rajasthan Royals"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">203/5 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-footer">
+                                            <div class="card-footer-content mt-3">
+                                              <p class="card-footer-text">
+                                                Rajasthan Royals beat Sunrisers Hyderabad by 72 runs
+                                              </p>
+                                            </div>
+                                            <div class="btn-group"><a href="#" title="View more"
+                                                class="btn btn-more btn-scorecard"><span
+                                                  class="btn-text">View More</span></a> </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                      <div class="card-item recent ">
+
+                                        <div class="card-head">
+                                          <span class="status">Recent</span>
+                                          <div class="card-number">
+                                            <span class="text">Match</span>
+                                            <span class="number">4</span>
+                                          </div>
+                                          <div class="date-time">
+                                            <span class="meta date">
+                                              Apr 02, 2023 15:30
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <div class="card-content">
+                                            <div class="team-detail">
+                                              <div class="team-wrapper">
+                                                <div class="team team-a">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/rr.png" alt="Sunrisers Hyderabad"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">131/8 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="match-time">
+                                                  <div class="match-time-wrap">
+                                                    <p class="time-text">
+                                                      vs
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="team team-b team-current">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/sun.png" alt="Rajasthan Royals"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">203/5 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-footer">
+                                            <div class="card-footer-content mt-3">
+                                              <p class="card-footer-text">
+                                                Rajasthan Royals beat Sunrisers Hyderabad by 72 runs
+                                              </p>
+                                            </div>
+                                            <div class="btn-group"><a href="#" title="View more"
+                                                class="btn btn-more btn-scorecard"><span
+                                                  class="btn-text">View More</span></a> </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                              aria-labelledby="pills-profile-tab">
+                              <div class="tab-container-item live-tab-container">
+                                <div class="tab-container-wrapper d-flex justify-content-center">
+                                  <div class="card-list row">
+                                    <div class="col-md-4">
+                                      <div class="card-item recent ">
+
+                                        <div class="card-head">
+                                          <span class="status">Recent</span>
+                                          <div class="card-number">
+                                            <span class="text">Match</span>
+                                            <span class="number">4</span>
+                                          </div>
+                                          <div class="date-time">
+                                            <span class="meta date">
+                                              Apr 02, 2023 15:30
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <div class="card-content">
+                                            <div class="team-detail">
+                                              <div class="team-wrapper">
+                                                <div class="team team-a">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/rr.png" alt="Sunrisers Hyderabad"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">131/8 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="match-time">
+                                                  <div class="match-time-wrap">
+                                                    <p class="time-text">
+                                                      vs
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="team team-b team-current">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/sun.png" alt="Rajasthan Royals"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">203/5 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-footer">
+                                            <div class="card-footer-content mt-3">
+                                              <p class="card-footer-text">
+                                                Rajasthan Royals beat Sunrisers Hyderabad by 72 runs
+                                              </p>
+                                            </div>
+                                            <div class="btn-group"><a href="#" title="View more"
+                                                class="btn btn-more btn-scorecard"><span
+                                                  class="btn-text">View More</span></a> </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                              aria-labelledby="pills-contact-tab">
+                              <div class="tab-container-item upcoming-tab-container">
+                                <div class="tab-container-wrapper d-flex justify-content-center">
+                                  <div class="card-list row">
+                                    <div class="col-md-4">
+                                      <div class="card-item recent ">
+
+                                        <div class="card-head">
+                                          <span class="status">Recent</span>
+                                          <div class="card-number">
+                                            <span class="text">Match</span>
+                                            <span class="number">4</span>
+                                          </div>
+                                          <div class="date-time">
+                                            <span class="meta date">
+                                              Apr 02, 2023 15:30
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <div class="card-content">
+                                            <div class="team-detail">
+                                              <div class="team-wrapper">
+                                                <div class="team team-a">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/rr.png" alt="Sunrisers Hyderabad"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">131/8 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="match-time">
+                                                  <div class="match-time-wrap">
+                                                    <p class="time-text">
+                                                      vs
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="team team-b team-current">
+                                                  <div class="team-info">
+                                                    <div class="team-image"><img width="100px" height="56px"
+                                                        src="static-assets/images/sun.png" alt="Rajasthan Royals"
+                                                        class="team-logo ls-is-cached lazyloaded">
+                                                    </div>
+                                                  </div>
+                                                  <div class="team-data-wrap">
+                                                    <div class="team-data">
+                                                      <div class="team-score"><span class="score">203/5 </span></div>
+                                                      <div class="team-extra"><span class="overs">(20.0)</span></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-footer">
+                                            <div class="card-footer-content mt-3">
+                                              <p class="card-footer-text">
+                                                Rajasthan Royals beat Sunrisers Hyderabad by 72 runs
+                                              </p>
+                                            </div>
+                                            <div class="btn-group"><a href="#" title="View more"
+                                                class="btn btn-more btn-scorecard"><span
+                                                  class="btn-text">View More</span></a> </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- Score Card -->
         <section class="waf-row waf-row-matches-standing" style="position: relative; left: 0px; top: 0px;">
           <div class="waf-view">
             <div class="container-fluid">
@@ -856,9 +1259,10 @@
           </div>
         </section>
 
+
+
     </main>
     <footer class="footer-wrap">
-
       <section class="breadcrumb-wrap">
         <div class="waf-component waf-breadcrumb widget-layout-01">
           <div class="layout-wrapper">
@@ -929,6 +1333,11 @@
         </div>
       </section>
     </footer>
+    <div class="scroll-indicator">
+      <button id="scrollIndicatorButton" class="bounce-arrow" aria-label="scroll the page to see more">
+          <span class="icon icon-scroll-down"></span>
+      </button>
+  </div>
     <script type="text/javascript">
       const scrollIndicatorButton = document.getElementById('scrollIndicatorButton');
       window.addEventListener('scroll', () => {
@@ -960,7 +1369,11 @@
 
     </script>
 
+
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

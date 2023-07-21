@@ -1130,7 +1130,7 @@ textarea {
     overflow: hidden;
 }
 
-#players.squad-listing .owl-nav{
+#players.squad-listing .owl-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1141,10 +1141,11 @@ textarea {
     transform: translate(-50%, -50%);
 }
 
-#players.squad-listing .owl-nav button span{
+#players.squad-listing .owl-nav button span {
     color: white !important;
     font-size: 30px;
 }
+
 #players.squad-listing .owl-nav button {
     width: 40px;
     height: 40px;
@@ -1152,7 +1153,7 @@ textarea {
     background-color: #00000065;
 }
 
-.players.squad-listing img{
+.players.squad-listing img {
     position: relative;
     z-index: 99999;
 }
@@ -1746,9 +1747,9 @@ textarea {
         max-width: 41.6666666667%
     }
 
- 
- 
- 
+
+
+
     .col-lg-6 {
         flex: 0 0 50%;
         max-width: 50%
@@ -5398,7 +5399,7 @@ body {
     }
 }
 
-.waf-scorestrip.widget-layout-07 .overs {
+.waf-scorestrip .overs {
     font: 0.9rem/1.5rem "Romagna-Regular", sans-serif
 }
 
@@ -5406,12 +5407,12 @@ body {
     font: 0.9rem/1.5rem "Montserrat-Medium", sans-serif
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-label,
+.waf-scorestrip .countdown-label,
 .waf-fixtures .countdown-label {
     font: 1rem/1.6rem "Romagna-Regular", sans-serif
 }
 
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status,
 .waf-fixed-dynamic-content-listing .second-list .badge,
 .waf-fixed-dynamic-content-listing.widget-layout-02 .badge {
@@ -5433,15 +5434,15 @@ body {
 .btn-forgot,
 .checkbox-container .text,
 .radio-box .text,
-.waf-scorestrip.widget-layout-07 .info-text,
-.waf-scorestrip.widget-layout-07 .card-footer-text {
+.waf-scorestrip .info-text,
+.waf-scorestrip .card-footer-text {
     font: 1.2rem/1.8rem "Romagna-Regular", sans-serif
 }
 
 .checkbox-container .link-text,
 .radio-box .link-text,
-.waf-scorestrip.widget-layout-07 .info-title,
-.waf-scorestrip.widget-layout-07 .team-name,
+.waf-scorestrip .info-title,
+.waf-scorestrip .team-name,
 .home-standings .table-head .table-data p,
 .home-standings .table-head .table-data .text {
     font: 1.2rem/1.8rem "Romagna-Bold", sans-serif
@@ -5452,20 +5453,20 @@ body {
     font: 1.2rem/1.8rem "Montserrat-Regular", sans-serif
 }
 
-.waf-scorestrip.widget-layout-08 .card-label,
+.waf-scorestrip .card-label,
 .waf-fixtures .card-label,
 .waf-fixed-dynamic-content-listing .badge,
 .waf-fixed-dynamic-content-listing .second-list .price-current,
-.waf-scorestrip.widget-layout-08 .card-item .btn-more .btn-text,
+.waf-scorestrip .card-item .btn-more .btn-text,
 .waf-fixtures .card-item .btn-more .btn-text {
     font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif
 }
 
-.waf-scorestrip.widget-layout-08 .text,
+.waf-scorestrip .text,
 .waf-fixtures .text,
-.waf-scorestrip.widget-layout-08 .number,
+.waf-scorestrip .number,
 .waf-fixtures .number,
-.waf-scorestrip.widget-layout-08 .meta,
+.waf-scorestrip .meta,
 .waf-fixtures .meta,
 .waf-academy-foundation .text,
 .waf-squad .country-name,
@@ -5488,11 +5489,11 @@ body {
 .form-control,
 .form-element .control-label,
 .step-item .text,
-.waf-scorestrip.widget-layout-08 .overs,
+.waf-scorestrip .overs,
 .waf-fixtures .overs,
-.waf-scorestrip.widget-layout-08 .card-footer-text,
+.waf-scorestrip .card-footer-text,
 .waf-fixtures .card-footer-text,
-.waf-scorestrip.widget-layout-07 .time-text,
+.waf-scorestrip .time-text,
 .waf-squad .head-tab a,
 .waf-newsletter .errordiv,
 .waf-download-banner .errordiv,
@@ -5503,9 +5504,9 @@ body {
 
 .form-area .social-login .new-user .sub-title .btn-register,
 .form-area .social-login .new-user .btn-text,
-.waf-scorestrip.widget-layout-08 .time-text,
+.waf-scorestrip .time-text,
 .waf-fixtures .time-text,
-.waf-scorestrip.widget-layout-07 .score,
+.waf-scorestrip .score,
 .waf-poll .poll-result .progress-count,
 .waf-fixed-dynamic-content-listing .second-list .article-title {
     font: 1.4rem/2rem "Romagna-Bold", sans-serif
@@ -5558,7 +5559,7 @@ body {
 }
 
 .title,
-.waf-scorestrip.widget-layout-08 .countdown-count,
+.waf-scorestrip .countdown-count,
 .waf-fixtures .countdown-count,
 .waf-academy-foundation .article-title,
 .waf-squad .title,
@@ -5572,7 +5573,7 @@ body {
     font: 2.4rem/3rem "Romagna-Bold", sans-serif
 }
 
-.waf-scorestrip.widget-layout-08 .score,
+.waf-scorestrip .score,
 .waf-fixtures .score,
 .waf-showcase .article-title {
     font: 2.6rem/3.2rem "Romagna-Bold", sans-serif
@@ -5638,8 +5639,8 @@ body {
     background-color: hsl(var(--color-hsl-secondary-dark)/1)
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-button-next,
-.waf-scorestrip.widget-layout-08 .swiper-button-prev,
+.waf-scorestrip .swiper-button-next,
+.waf-scorestrip .swiper-button-prev,
 .waf-fixtures .swiper-button-next,
 .waf-fixtures .swiper-button-prev {
     background-color: hsl(var(--color-hsl-black-light)/0.2)
@@ -5660,7 +5661,7 @@ body {
 }
 
 .dark-mode .waf-row-matches-standings,
-.waf-scorestrip.widget-layout-07,
+.waf-scorestrip,
 .dark-mode .waf-standings .table-head .table-data,
 .home-standings .table,
 .waf-listing.home-podcast-list .article-item,
@@ -5685,7 +5686,7 @@ body {
 .title,
 .head-tab a,
 .dark-mode .tooltip-text,
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .status,
+.waf-scorestrip .card-item.upcoming .status,
 .waf-fixtures .card-item.upcoming .status,
 .waf-squad .title,
 .waf-squad .head-tab a,
@@ -5702,7 +5703,7 @@ body {
 }
 
 .home.dark-mode,
-.waf-scorestrip.widget-layout-07 .waf-body,
+.waf-scorestrip .waf-body,
 .home-standings .table-head,
 .home-standings .table-head .table-data,
 .dark-mode .waf-fixed-dynamic-content-listing .article-item,
@@ -5733,8 +5734,8 @@ body {
 .delete-account .icon::before,
 .dark-mode .swiper-button-next::after,
 .dark-mode .swiper-button-prev::after,
-.waf-scorestrip.widget-layout-07 .info-title,
-.waf-scorestrip.widget-layout-07 .team-name,
+.waf-scorestrip .info-title,
+.waf-scorestrip .team-name,
 .dark-mode .waf-squad .swiper-button-next::after,
 .dark-mode .waf-squad .swiper-button-prev::after,
 .waf-squad .last-name,
@@ -5765,8 +5766,8 @@ body {
 
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data:not(:first-child)::before,
-.waf-scorestrip.widget-layout-08 .meta:first-child::after,
+.waf-scorestrip .card-item.super-over .team-data:not(:first-child)::before,
+.waf-scorestrip .meta:first-child::after,
 .waf-fixtures .meta:first-child::after,
 .waf-listing.home-podcast-list .article-content::after,
 .waf-listing.home-podcast-list .meta-wrap::after,
@@ -5779,24 +5780,24 @@ body {
 .dark-mode .swiper-button-prev,
 .swiper-button-next,
 .swiper-button-prev,
-.waf-scorestrip.widget-layout-08 .card-footer::before,
+.waf-scorestrip .card-footer::before,
 .waf-fixtures .card-footer::before,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::after,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::before,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
 .waf-fixtures .countdown-wrapper::after,
 .waf-fixtures .countdown-wrapper::before,
-.waf-scorestrip.widget-layout-08 .countdown-item::after,
+.waf-scorestrip .countdown-item::after,
 .waf-fixtures .countdown-item::after {
     background-color: hsl(var(--color-hsl-white-default)/0.2)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-current .score,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-won .score,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-current .overs,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-won .overs,
-.waf-scorestrip.widget-layout-08 .score,
+.waf-scorestrip .card-item.super-over .team-current .score,
+.waf-scorestrip .card-item.super-over .team-won .score,
+.waf-scorestrip .card-item.super-over .team-current .overs,
+.waf-scorestrip .card-item.super-over .team-won .overs,
+.waf-scorestrip .score,
 .waf-fixtures .score,
-.waf-scorestrip.widget-layout-08 .overs,
+.waf-scorestrip .overs,
 .waf-fixtures .overs {
     color: hsl(var(--color-hsl-white-default)/0.3)
 }
@@ -5810,7 +5811,7 @@ body {
     background-color: hsl(var(--color-hsl-white-default)/0.4)
 }
 
-.waf-scorestrip.widget-layout-07 .time-text,
+.waf-scorestrip .time-text,
 .waf-squad .country-name,
 .waf-squad .player-stats-title {
     color: hsl(var(--color-hsl-white-default)/0.5)
@@ -5818,18 +5819,18 @@ body {
 
 .swiper-button-next.swiper-button-disabled::after,
 .swiper-button-prev.swiper-button-disabled::after,
-.waf-scorestrip.widget-layout-07 .score,
-.waf-scorestrip.widget-layout-07 .overs,
+.waf-scorestrip .score,
+.waf-scorestrip .overs,
 .waf-showcase .swiper-button-next.swiper-button-disabled::after,
 .waf-showcase .swiper-button-prev.swiper-button-disabled::after {
     color: hsl(var(--color-hsl-white-default)/0.6)
 }
 
-.waf-scorestrip.widget-layout-08 .text,
+.waf-scorestrip .text,
 .waf-fixtures .text,
-.waf-scorestrip.widget-layout-08 .number,
+.waf-scorestrip .number,
 .waf-fixtures .number,
-.waf-scorestrip.widget-layout-08 .meta,
+.waf-scorestrip .meta,
 .waf-fixtures .meta,
 .waf-academy-foundation .text,
 .waf-newsletter .content,
@@ -5861,40 +5862,40 @@ body {
 .dark-mode .swiper-button-prev:hover::after,
 .swiper-button-next::after,
 .swiper-button-prev::after,
-.waf-scorestrip.widget-layout-08 .card-label,
+.waf-scorestrip .card-label,
 .waf-fixtures .card-label,
-.dark-mode .waf-scorestrip.widget-layout-08 .head-wrap .title,
-.dark-mode .waf-scorestrip.widget-layout-08 .head-wrap a,
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer-text::before,
-.waf-scorestrip.widget-layout-08 .card-item .card-footer .btn-more:nth-child(2) .btn-text,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-current .team-data:last-child .score,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-won .team-data:last-child .score,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-current .team-data:last-child .overs,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-won .team-data:last-child .overs,
-.waf-scorestrip.widget-layout-08 .time-text,
+.dark-mode .waf-scorestrip .head-wrap .title,
+.dark-mode .waf-scorestrip .head-wrap a,
+.waf-scorestrip .card-item.upcoming .card-footer-text::before,
+.waf-scorestrip .card-item .card-footer .btn-more:nth-child(2) .btn-text,
+.waf-scorestrip .card-item.super-over .team-current .team-data:last-child .score,
+.waf-scorestrip .card-item.super-over .team-won .team-data:last-child .score,
+.waf-scorestrip .card-item.super-over .team-current .team-data:last-child .overs,
+.waf-scorestrip .card-item.super-over .team-won .team-data:last-child .overs,
+.waf-scorestrip .time-text,
 .waf-fixtures .time-text,
-.waf-scorestrip.widget-layout-08 .team-current .score,
-.waf-scorestrip.widget-layout-08 .team-won .score,
+.waf-scorestrip .team-current .score,
+.waf-scorestrip .team-won .score,
 .waf-fixtures .team-current .score,
 .waf-fixtures .team-won .score,
-.waf-scorestrip.widget-layout-08 .team-current .overs,
-.waf-scorestrip.widget-layout-08 .team-won .overs,
+.waf-scorestrip .team-current .overs,
+.waf-scorestrip .team-won .overs,
 .waf-fixtures .team-current .overs,
 .waf-fixtures .team-won .overs,
-.waf-scorestrip.widget-layout-08 .card-footer-text,
+.waf-scorestrip .card-footer-text,
 .waf-fixtures .card-footer-text,
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper .icon:after,
+.waf-scorestrip .countdown-wrapper .icon:after,
 .waf-fixtures .countdown-wrapper .icon:after,
-.waf-scorestrip.widget-layout-08 .countdown-count,
+.waf-scorestrip .countdown-count,
 .waf-fixtures .countdown-count,
-.waf-scorestrip.widget-layout-08 .countdown-label,
+.waf-scorestrip .countdown-label,
 .waf-fixtures .countdown-label,
-.waf-scorestrip.widget-layout-07 .team-current .score,
-.waf-scorestrip.widget-layout-07 .team-current .overs,
-.waf-scorestrip.widget-layout-07 .info-text,
-.waf-scorestrip.widget-layout-07 .card-footer-text,
+.waf-scorestrip .team-current .score,
+.waf-scorestrip .team-current .overs,
+.waf-scorestrip .info-text,
+.waf-scorestrip .card-footer-text,
 .dark-mode .waf-standings .title,
 .dark-mode .waf-standings .head-tab a,
 .home-standings .table-data p,
@@ -5953,14 +5954,14 @@ body {
 .waf-fixed-dynamic-content-listing.home-video-list .item-type-video .article-content .item-type-icon::after,
 .waf-listing.home-video-list .article-title,
 .waf-fixed-dynamic-content-listing.home-video-list .article-title,
-.waf-scorestrip.widget-layout-08 .card-item .btn-more .btn-text,
+.waf-scorestrip .card-item .btn-more .btn-text,
 .waf-fixtures .card-item .btn-more .btn-text {
     color: hsl(var(--color-hsl-white-default)/1)
 }
 
 .step-item:not(:last-child)::before,
 .waf-row-matches-standings,
-.waf-scorestrip.widget-layout-08 .team-image,
+.waf-scorestrip .team-image,
 .waf-fixtures .team-image,
 .waf-newsletter .errordiv::before,
 .waf-download-banner .errordiv::before,
@@ -5996,12 +5997,12 @@ body {
     color: hsl(var(--color-hsl-error-text)/1)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.recent .status,
+.waf-scorestrip .card-item.recent .status,
 .waf-fixtures .card-item.recent .status {
     background-color: hsl(var(--color-hsl-error-text)/1)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.live .status,
+.waf-scorestrip .card-item.live .status,
 .waf-fixtures .card-item.live .status {
     background-color: hsl(var(--color-hsl-success-text)/1)
 }
@@ -6010,8 +6011,8 @@ body {
     background-color: hsl(var(--color-hsl-button-primary)/0.6)
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-button-next::after,
-.waf-scorestrip.widget-layout-08 .swiper-button-prev::after,
+.waf-scorestrip .swiper-button-next::after,
+.waf-scorestrip .swiper-button-prev::after,
 .waf-fixtures .swiper-button-next::after,
 .waf-fixtures .swiper-button-prev::after {
     color: hsl(var(--color-hsl-button-primary)/1)
@@ -6024,7 +6025,7 @@ body {
 .dark-mode .waf-listing.home-video-list .first-list .item-type-video .article-content .item-type-icon,
 .dark-mode .waf-poll .poll-result .progress-bar,
 .dark-mode .waf-listing.home-tv-list .second-list .item-type-video .article-content .item-type-icon,
-.waf-scorestrip.widget-layout-08 .card-item .btn-more,
+.waf-scorestrip .card-item .btn-more,
 .waf-fixtures .card-item .btn-more {
     background-color: hsl(var(--color-hsl-button-primary)/1)
 }
@@ -6042,13 +6043,13 @@ body {
 .size-chart-wrap .size-chart,
 .form-area .form-login-wrap,
 .timer,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper,
+.waf-scorestrip .countdown-wrapper,
 .waf-fixtures .countdown-wrapper,
-.waf-scorestrip.widget-layout-08 .countdown-list,
+.waf-scorestrip .countdown-list,
 .waf-fixtures .countdown-list,
-.waf-scorestrip.widget-layout-07 .info-wrapper,
-.waf-scorestrip.widget-layout-07 .team-score,
-.waf-scorestrip.widget-layout-07 .card-item,
+.waf-scorestrip .info-wrapper,
+.waf-scorestrip .team-score,
+.waf-scorestrip .card-item,
 .waf-standings .table,
 .waf-standings .table-row,
 .waf-standings .row-head,
@@ -6070,9 +6071,9 @@ body {
     display: flex
 }
 
-.waf-scorestrip.widget-layout-08 .team-wrapper,
+.waf-scorestrip .team-wrapper,
 .waf-fixtures .team-wrapper,
-.waf-scorestrip.widget-layout-07 .waf-body,
+.waf-scorestrip .waf-body,
 .waf-poll .poll-result .poll-count {
     display: flex;
     justify-content: space-between
@@ -6085,14 +6086,14 @@ body {
 .checkbox-container,
 .radio-container,
 .radio-box-wrap,
-.waf-scorestrip.widget-layout-08 .head-wrap,
+.waf-scorestrip .head-wrap,
 .waf-fixtures .head-wrap,
-.waf-scorestrip.widget-layout-08 .card-list,
+.waf-scorestrip .card-list,
 .waf-fixtures .card-list,
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status,
-.waf-scorestrip.widget-layout-07 .team,
-.waf-scorestrip.widget-layout-07 .team-data,
+.waf-scorestrip .team,
+.waf-scorestrip .team-data,
 .waf-standings .team-wrap,
 .waf-standings .team-information,
 .waf-squad.home-squad .player-meta,
@@ -6107,7 +6108,7 @@ body {
     align-items: center
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .btn-more,
+.waf-scorestrip .card-item .btn-more,
 .waf-fixtures .card-item .btn-more {
     display: flex;
     justify-content: center
@@ -6123,9 +6124,9 @@ body {
 .waf-action-modal .message-wrap .btn-group,
 .swiper-button-next,
 .swiper-button-prev,
-.waf-scorestrip.widget-layout-08 .team-image,
+.waf-scorestrip .team-image,
 .waf-fixtures .team-image,
-.waf-scorestrip.widget-layout-07 .live .status,
+.waf-scorestrip .live .status,
 .waf-standings .table-data,
 .waf-squad .squad-item.overseas .icon,
 .reaction-section .social-wrap,
@@ -6142,7 +6143,7 @@ body {
     align-items: center
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-item,
+.waf-scorestrip .countdown-item,
 .waf-fixtures .countdown-item {
     display: flex;
     flex-direction: column;
@@ -6150,9 +6151,9 @@ body {
     align-items: center
 }
 
-.waf-scorestrip.widget-layout-08 .team-data,
+.waf-scorestrip .team-data,
 .waf-fixtures .team-data,
-.waf-scorestrip.widget-layout-08 .card-head,
+.waf-scorestrip .card-head,
 .waf-fixtures .card-head {
     display: flex;
     flex-direction: column;
@@ -6162,7 +6163,7 @@ body {
 .size-chart-wrap .size-chart-table,
 .benefit-info,
 .resend,
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-newsletter .errordiv,
 .waf-download-banner .errordiv,
 .waf-poll .radio-box-wrap,
@@ -6172,24 +6173,24 @@ body {
     flex-direction: column
 }
 
-.waf-scorestrip.widget-layout-08 .meta:first-child::after,
+.waf-scorestrip .meta:first-child::after,
 .waf-fixtures .meta:first-child::after,
-.waf-scorestrip.widget-layout-08 .countdown-item::after,
+.waf-scorestrip .countdown-item::after,
 .waf-fixtures .countdown-item::after {
     position: absolute;
     top: 50%;
     transform: translateY(-50%)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data:not(:first-child)::before,
-.waf-scorestrip.widget-layout-08 .card-item::after,
+.waf-scorestrip .card-item.super-over .team-data:not(:first-child)::before,
+.waf-scorestrip .card-item::after,
 .waf-fixtures .card-item::after,
-.waf-scorestrip.widget-layout-08 .card-footer::before,
+.waf-scorestrip .card-footer::before,
 .waf-fixtures .card-footer::before,
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::after,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::before,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
 .waf-fixtures .countdown-wrapper::after,
 .waf-fixtures .countdown-wrapper::before,
 .waf-squad.home-squad .swiper-pagination,
@@ -6200,8 +6201,8 @@ body {
     transform: translateX(-50%)
 }
 
-.waf-scorestrip.widget-layout-08 .team-current .team-image::before,
-.waf-scorestrip.widget-layout-08 .team-won .team-image::before,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
 .waf-fixtures .team-current .team-image::before,
 .waf-fixtures .team-won .team-image::before,
 .waf-newsletter .errordiv::after,
@@ -6228,7 +6229,7 @@ body {
     left: 0
 }
 
-.waf-scorestrip.widget-layout-07 .btn-more,
+.waf-scorestrip .btn-more,
 .waf-squad .squad-item.overseas .icon {
     position: absolute;
     top: 0;
@@ -6253,24 +6254,24 @@ body {
     left: 0
 }
 
-.waf-scorestrip.widget-layout-08 .meta:first-child::after,
+.waf-scorestrip .meta:first-child::after,
 .waf-fixtures .meta:first-child::after,
-.waf-scorestrip.widget-layout-08 .countdown-item::after,
+.waf-scorestrip .countdown-item::after,
 .waf-fixtures .countdown-item::after {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data:not(:first-child)::before,
-.waf-scorestrip.widget-layout-08 .card-item::after,
+.waf-scorestrip .card-item.super-over .team-data:not(:first-child)::before,
+.waf-scorestrip .card-item::after,
 .waf-fixtures .card-item::after,
-.waf-scorestrip.widget-layout-08 .card-footer::before,
+.waf-scorestrip .card-footer::before,
 .waf-fixtures .card-footer::before,
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::after,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::before,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
 .waf-fixtures .countdown-wrapper::after,
 .waf-fixtures .countdown-wrapper::before,
 .waf-squad.home-squad .swiper-pagination,
@@ -6281,8 +6282,8 @@ body {
     transform: translate(-50%, 0)
 }
 
-.waf-scorestrip.widget-layout-08 .team-current .team-image::before,
-.waf-scorestrip.widget-layout-08 .team-won .team-image::before,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
 .waf-fixtures .team-current .team-image::before,
 .waf-fixtures .team-won .team-image::before,
 .waf-newsletter .errordiv::after,
@@ -6300,7 +6301,7 @@ body {
 .form-area .social-login .btn-social,
 .swiper-button-next,
 .swiper-button-prev,
-.waf-scorestrip.widget-layout-08 .team-image,
+.waf-scorestrip .team-image,
 .waf-fixtures .team-image,
 .waf-squad .squad-item.overseas .icon,
 .waf-poll .radio-box .radiomark,
@@ -6318,9 +6319,9 @@ body {
     border-radius: var(--full-radius)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-fixtures .card-item,
-.waf-scorestrip.widget-layout-07 .waf-body,
+.waf-scorestrip .waf-body,
 .home-standings .table,
 .waf-academy-foundation .article-item,
 .waf-squad.home-squad .swiper-pagination-bullet,
@@ -6337,8 +6338,8 @@ body {
 
 .step-item .icon,
 .step-item .icon-wrap,
-.waf-scorestrip.widget-layout-08 .team-current .team-image::before,
-.waf-scorestrip.widget-layout-08 .team-won .team-image::before,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
 .waf-fixtures .team-current .team-image::before,
 .waf-fixtures .team-won .team-image::before {
     border-radius: 50%;
@@ -6346,7 +6347,7 @@ body {
 }
 
 .size-chart-wrap .size-chart-table,
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-fixtures .card-item,
 .waf-squad .player-stats-list,
 .waf-listing.home-news-list .second-list {
@@ -6358,9 +6359,9 @@ body {
 }
 
 .step-item .text,
-.waf-scorestrip.widget-layout-08 .score,
+.waf-scorestrip .score,
 .waf-fixtures .score,
-.waf-scorestrip.widget-layout-08 .card-item .card-footer .btn-more:nth-child(2),
+.waf-scorestrip .card-item .card-footer .btn-more:nth-child(2),
 .waf-poll .poll-result .progress-bar-holder {
     margin-top: var(--half-space)
 }
@@ -6369,9 +6370,9 @@ body {
     padding-top: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-head,
+.waf-scorestrip .card-item .card-head,
 .waf-fixtures .card-item .card-head,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data:not(:first-child) {
+.waf-scorestrip .card-item.super-over .team-data:not(:first-child) {
     margin-top: var(--quater-space)
 }
 
@@ -6379,13 +6380,14 @@ body {
     padding-top: var(--quater-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-footer {
-    margin-top: auto
+.waf-scorestrip .card-item .card-footer {
+    margin-top: auto;
+
 }
 
-.waf-scorestrip.widget-layout-08 .meta:first-child,
+.waf-scorestrip .meta:first-child,
 .waf-fixtures .meta:first-child,
-.waf-scorestrip.widget-layout-07 .info-text,
+.waf-scorestrip .info-text,
 .waf-squad .role,
 .waf-listing.home-tv-list .first-list .meta,
 .waf-listing.home-tv-list .second-list .meta {
@@ -6399,11 +6401,11 @@ body {
 }
 
 .link-benefit::before,
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer-text::before,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-b .overs,
-.waf-scorestrip.widget-layout-08 .card-item.live .status::before,
+.waf-scorestrip .card-item.upcoming .card-footer-text::before,
+.waf-scorestrip .card-item.super-over .team-b .overs,
+.waf-scorestrip .card-item.live .status::before,
 .waf-fixtures .card-item.live .status::before,
-.waf-scorestrip.widget-layout-07 .live .status::before,
+.waf-scorestrip .live .status::before,
 .waf-listing.home-podcast-list .timestamp p::before,
 .waf-listing .meta-date::before,
 .waf-fixed-dynamic-content-listing .meta-date::before {
@@ -6414,10 +6416,10 @@ body {
 .link-benefit,
 .membership-button .btn-fill,
 .flag-label,
-.waf-scorestrip.widget-layout-08 .accordion-body,
-.waf-scorestrip.widget-layout-08 .card-footer-text,
+.waf-scorestrip .accordion-body,
+.waf-scorestrip .card-footer-text,
 .waf-fixtures .card-footer-text,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper,
+.waf-scorestrip .countdown-wrapper,
 .waf-fixtures .countdown-wrapper,
 .waf-squad .head-wrap,
 .waf-squad .player-name,
@@ -6435,7 +6437,7 @@ body {
     margin-bottom: var(--full-space)
 }
 
-.waf-scorestrip.widget-layout-08 .waf-head,
+.waf-scorestrip .waf-head,
 .waf-academy-foundation .text,
 .waf-squad .player-stats-title,
 .waf-newsletter .errordiv,
@@ -6451,9 +6453,9 @@ body {
     margin-bottom: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-label,
+.waf-scorestrip .card-label,
 .waf-fixtures .card-label,
-.waf-scorestrip.widget-layout-08 .card-number,
+.waf-scorestrip .card-number,
 .home-standings .table-body .table-row:not(:last-child),
 .waf-fixed-dynamic-content-listing .badge {
     margin-bottom: var(--quater-space)
@@ -6464,7 +6466,7 @@ body {
 }
 
 .head-tab a,
-.waf-scorestrip.widget-layout-07 .info-section,
+.waf-scorestrip .info-section,
 .waf-squad .head-tab a,
 .waf-listing .head-tab a,
 .waf-fixed-dynamic-content-listing .head-tab a {
@@ -6483,8 +6485,8 @@ body {
     margin-left: var(--full-space-negative)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-a .overs,
-.waf-scorestrip.widget-layout-07 .overs,
+.waf-scorestrip .card-item.super-over .team-a .overs,
+.waf-scorestrip .overs,
 .waf-squad .country-name {
     margin-left: var(--quater-space)
 }
@@ -6495,7 +6497,7 @@ body {
 }
 
 .size-chart-wrap .size-chart-table,
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-fixtures .card-item,
 .waf-squad .player-stats-list,
 .waf-listing.home-news-list .second-list {
@@ -6507,9 +6509,9 @@ body {
 }
 
 .step-item .text,
-.waf-scorestrip.widget-layout-08 .score,
+.waf-scorestrip .score,
 .waf-fixtures .score,
-.waf-scorestrip.widget-layout-08 .card-item .card-footer .btn-more:nth-child(2),
+.waf-scorestrip .card-item .card-footer .btn-more:nth-child(2),
 .waf-poll .poll-result .progress-bar-holder {
     margin-top: var(--half-space)
 }
@@ -6518,9 +6520,9 @@ body {
     padding-top: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-head,
+.waf-scorestrip .card-item .card-head,
 .waf-fixtures .card-item .card-head,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data:not(:first-child) {
+.waf-scorestrip .card-item.super-over .team-data:not(:first-child) {
     margin-top: var(--quater-space)
 }
 
@@ -6528,17 +6530,17 @@ body {
     padding-top: var(--quater-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .score-super-over .score {
+.waf-scorestrip .card-item.super-over .score-super-over .score {
     margin-top: 0
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-footer {
+.waf-scorestrip .card-item .card-footer {
     margin-top: auto
 }
 
-.waf-scorestrip.widget-layout-08 .meta:first-child,
+.waf-scorestrip .meta:first-child,
 .waf-fixtures .meta:first-child,
-.waf-scorestrip.widget-layout-07 .info-text,
+.waf-scorestrip .info-text,
 .waf-squad .role,
 .waf-listing.home-tv-list .first-list .meta,
 .waf-listing.home-tv-list .second-list .meta {
@@ -6552,11 +6554,11 @@ body {
 }
 
 .link-benefit::before,
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer-text::before,
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-b .overs,
-.waf-scorestrip.widget-layout-08 .card-item.live .status::before,
+.waf-scorestrip .card-item.upcoming .card-footer-text::before,
+.waf-scorestrip .card-item.super-over .team-b .overs,
+.waf-scorestrip .card-item.live .status::before,
 .waf-fixtures .card-item.live .status::before,
-.waf-scorestrip.widget-layout-07 .live .status::before,
+.waf-scorestrip .live .status::before,
 .waf-listing.home-podcast-list .timestamp p::before,
 .waf-listing .meta-date::before,
 .waf-fixed-dynamic-content-listing .meta-date::before {
@@ -6567,10 +6569,10 @@ body {
 .link-benefit,
 .membership-button .btn-fill,
 .flag-label,
-.waf-scorestrip.widget-layout-08 .accordion-body,
-.waf-scorestrip.widget-layout-08 .card-footer-text,
+.waf-scorestrip .accordion-body,
+.waf-scorestrip .card-footer-text,
 .waf-fixtures .card-footer-text,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper,
+.waf-scorestrip .countdown-wrapper,
 .waf-fixtures .countdown-wrapper,
 .waf-squad .head-wrap,
 .waf-squad .player-name,
@@ -6593,7 +6595,7 @@ body {
     margin-bottom: var(--two-space)
 }
 
-.waf-scorestrip.widget-layout-08 .waf-head,
+.waf-scorestrip .waf-head,
 .waf-academy-foundation .text,
 .waf-squad .player-stats-title,
 .waf-newsletter .errordiv,
@@ -6609,9 +6611,9 @@ body {
     margin-bottom: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-label,
+.waf-scorestrip .card-label,
 .waf-fixtures .card-label,
-.waf-scorestrip.widget-layout-08 .card-number,
+.waf-scorestrip .card-number,
 .home-standings .table-body .table-row:not(:last-child),
 .waf-fixed-dynamic-content-listing .badge {
     margin-bottom: var(--quater-space)
@@ -6622,7 +6624,7 @@ body {
 }
 
 .head-tab a,
-.waf-scorestrip.widget-layout-07 .info-section,
+.waf-scorestrip .info-section,
 .waf-squad .head-tab a,
 .waf-listing .head-tab a,
 .waf-fixed-dynamic-content-listing .head-tab a {
@@ -6641,8 +6643,8 @@ body {
     margin-left: var(--full-space-negative)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-a .overs,
-.waf-scorestrip.widget-layout-07 .overs,
+.waf-scorestrip .card-item.super-over .team-a .overs,
+.waf-scorestrip .overs,
 .waf-squad .country-name {
     margin-left: var(--quater-space)
 }
@@ -6673,7 +6675,7 @@ body {
 }
 
 .step-wrapper,
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer-text {
+.waf-scorestrip .card-item.upcoming .card-footer-text {
     margin-inline: auto
 }
 
@@ -6685,11 +6687,11 @@ body {
     padding-block: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-fixtures .card-item,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper .icon,
+.waf-scorestrip .countdown-wrapper .icon,
 .waf-fixtures .countdown-wrapper .icon,
-.waf-scorestrip.widget-layout-08 .countdown-item,
+.waf-scorestrip .countdown-item,
 .waf-fixtures .countdown-item,
 .waf-squad .player-wrap {
     padding: var(--full-space)
@@ -6708,8 +6710,8 @@ body {
     padding: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-07,
-.waf-scorestrip.widget-layout-07 .waf-body,
+.waf-scorestrip,
+.waf-scorestrip .waf-body,
 .waf-poll .poll-result .progress-count,
 .waf-fixed-dynamic-content-listing .badge {
     padding: var(--quater-space)
@@ -6719,11 +6721,11 @@ body {
     margin: 0
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-slide .countdown-wrapper .icon {
+.waf-scorestrip .swiper-slide .countdown-wrapper .icon {
     padding: 0
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-wrapper .icon,
+.waf-scorestrip .countdown-wrapper .icon,
 .waf-fixtures .countdown-wrapper .icon,
 .waf-standings .table-data.position {
     width: 20%
@@ -6742,11 +6744,11 @@ body {
     width: 50%
 }
 
-.waf-scorestrip.widget-layout-07 .info-section {
+.waf-scorestrip .info-section {
     width: 60%
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-list,
+.waf-scorestrip .countdown-list,
 .waf-fixtures .countdown-list,
 .waf-standings .table-data.team,
 .waf-listing.home-video-list .article-title,
@@ -6754,8 +6756,8 @@ body {
     width: 80%
 }
 
-.waf-scorestrip.widget-layout-07 .live .status,
-.waf-scorestrip.widget-layout-07 .btn-more,
+.waf-scorestrip .live .status,
+.waf-scorestrip .btn-more,
 .waf-standings .table-row,
 .waf-standings .row-head,
 .waf-academy-foundation .img-box img,
@@ -6784,12 +6786,12 @@ body {
 .size-chart-wrap .waf-accordion-trigger,
 .membership-button .btn-fill,
 .form-area .social-login .new-user .sub-title,
-.waf-scorestrip.widget-layout-08 .card-item .card-footer .btn-more,
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item .card-footer .btn-more,
+.waf-scorestrip .card-item,
 .waf-fixtures .card-item,
-.waf-scorestrip.widget-layout-08 .card-list,
+.waf-scorestrip .card-list,
 .waf-fixtures .card-list,
-.waf-scorestrip.widget-layout-07 .btn-more,
+.waf-scorestrip .btn-more,
 .waf-standings .table-row,
 .waf-standings .team-wrap,
 .waf-academy-foundation .img-box img,
@@ -6837,15 +6839,15 @@ body {
 
 .title,
 .size-chart-wrap .accordion-title,
-.waf-scorestrip.widget-layout-08 .swiper-slide .countdown-label,
-.waf-scorestrip.widget-layout-08 .meta,
+.waf-scorestrip .swiper-slide .countdown-label,
+.waf-scorestrip .meta,
 .waf-fixtures .meta,
-.waf-scorestrip.widget-layout-08 .time-text,
+.waf-scorestrip .time-text,
 .waf-fixtures .time-text,
-.waf-scorestrip.widget-layout-08 .card-item .btn-text,
+.waf-scorestrip .card-item .btn-text,
 .waf-fixtures .card-item .btn-text,
-.waf-scorestrip.widget-layout-07 .info-title,
-.waf-scorestrip.widget-layout-07 .team-name,
+.waf-scorestrip .info-title,
+.waf-scorestrip .team-name,
 .home-standings .table-head .table-data p,
 .home-standings .table-head .table-data .text,
 .waf-squad .title,
@@ -6868,13 +6870,13 @@ body {
 
 .size-chart-wrap .size-chart-table .table-data:first-child,
 .size-chart-wrap .size-chart-table .table-data:first-child .text,
-.waf-scorestrip.widget-layout-08 .card-label,
+.waf-scorestrip .card-label,
 .waf-fixtures .card-label,
-.waf-scorestrip.widget-layout-08 .text,
+.waf-scorestrip .text,
 .waf-fixtures .text,
-.waf-scorestrip.widget-layout-08 .number,
+.waf-scorestrip .number,
 .waf-fixtures .number,
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status,
 .waf-squad .role,
 .waf-poll .radio-box .text,
@@ -6882,7 +6884,7 @@ body {
     text-transform: capitalize
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .btn-more,
+.waf-scorestrip .card-item .btn-more,
 .waf-fixtures .card-item .btn-more {
     width: max-content;
     height: max-content;
@@ -6892,7 +6894,7 @@ body {
     overflow: visible
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .btn-more,
+.waf-scorestrip .card-item .btn-more,
 .waf-fixtures .card-item .btn-more {
     border-color: rgba(0, 0, 0, 0)
 }
@@ -7065,15 +7067,15 @@ body {
 .step-list,
 .step-item .icon-wrap,
 .step-item.completed .icon,
-.waf-scorestrip.widget-layout-08 .swiper-slide .countdown-wrapper .icon {
+.waf-scorestrip .swiper-slide .countdown-wrapper .icon {
     display: flex;
     justify-content: center;
     align-items: center
 }
 
-.waf-scorestrip.widget-layout-08 .time-text,
+.waf-scorestrip .time-text,
 .waf-fixtures .time-text,
-.waf-scorestrip.widget-layout-07 .card-footer {
+.waf-scorestrip .card-footer {
     display: flex;
     align-items: center
 }
@@ -7082,13 +7084,13 @@ body {
 .size-chart-wrap .size-chart,
 .form-area .form-login-wrap,
 .timer,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper,
+.waf-scorestrip .countdown-wrapper,
 .waf-fixtures .countdown-wrapper,
-.waf-scorestrip.widget-layout-08 .countdown-list,
+.waf-scorestrip .countdown-list,
 .waf-fixtures .countdown-list,
-.waf-scorestrip.widget-layout-07 .info-wrapper,
-.waf-scorestrip.widget-layout-07 .team-score,
-.waf-scorestrip.widget-layout-07 .card-item,
+.waf-scorestrip .info-wrapper,
+.waf-scorestrip .team-score,
+.waf-scorestrip .card-item,
 .waf-standings .table,
 .waf-standings .table-row,
 .waf-standings .row-head,
@@ -7113,7 +7115,7 @@ body {
 .size-chart-wrap .size-chart-table,
 .benefit-info,
 .resend,
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-newsletter .errordiv,
 .waf-download-banner .errordiv,
 .waf-poll .radio-box-wrap,
@@ -7123,8 +7125,8 @@ body {
     flex-direction: column
 }
 
-.waf-scorestrip.widget-layout-08 .team-name,
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer::before {
+.waf-scorestrip .team-name,
+.waf-scorestrip .card-item.upcoming .card-footer::before {
     display: none
 }
 
@@ -9874,7 +9876,7 @@ body {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 {
+.waf-scorestrip {
     height: var(--score-height);
     margin: 0;
     width: var(--window-inner-width);
@@ -9884,29 +9886,29 @@ body {
     z-index: var(--score-strip-z)
 }
 
-.waf-scorestrip.widget-layout-07:empty {
+.waf-scorestrip:empty {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .match-time,
-.waf-scorestrip.widget-layout-07 .card-footer-text {
+.waf-scorestrip .match-time,
+.waf-scorestrip .card-footer-text {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .swiper-button {
+.waf-scorestrip .swiper-button {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .recent .card-head,
-.waf-scorestrip.widget-layout-07 .upcoming .card-head {
+.waf-scorestrip .recent .card-head,
+.waf-scorestrip .upcoming .card-head {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .live .status {
+.waf-scorestrip .live .status {
     font-size: 0
 }
 
-.waf-scorestrip.widget-layout-07 .live .status::before {
+.waf-scorestrip .live .status::before {
     content: "";
     display: inline-block;
     width: 1.4rem;
@@ -9915,15 +9917,15 @@ body {
     background-size: contain
 }
 
-.waf-scorestrip.widget-layout-07 .score-strip-slider {
+.waf-scorestrip .score-strip-slider {
     margin: unset
 }
 
-.waf-scorestrip.widget-layout-07 .info-section {
+.waf-scorestrip .info-section {
     position: relative
 }
 
-.waf-scorestrip.widget-layout-07 .info-section::after {
+.waf-scorestrip .info-section::after {
     content: "";
     width: .1rem;
     height: 2rem;
@@ -9934,33 +9936,33 @@ body {
     transform: translateY(-50%)
 }
 
-.waf-scorestrip.widget-layout-07 .info-section::after {
+.waf-scorestrip .info-section::after {
     right: unset;
     left: var(--half-space-negative);
     background-color: hsl(var(--color-hsl-white-default)/0.5)
 }
 
-.waf-scorestrip.widget-layout-07 .info-body {
+.waf-scorestrip .info-body {
     overflow: hidden
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper {
+.waf-scorestrip .info-wrapper {
     width: max-content;
     transform: translateX(100%)
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper:hover {
+.waf-scorestrip .info-wrapper:hover {
     animation-play-state: paused
 }
 
-.waf-scorestrip.widget-layout-07 .info-text {
+.waf-scorestrip .info-text {
     display: block;
     width: max-content;
     position: relative;
     flex-shrink: 0
 }
 
-.waf-scorestrip.widget-layout-07 .info-text::after {
+.waf-scorestrip .info-text::after {
     content: "";
     width: .1rem;
     height: 2rem;
@@ -9971,24 +9973,24 @@ body {
     transform: translateY(-50%)
 }
 
-.waf-scorestrip.widget-layout-07 .info-text:first-child::after {
+.waf-scorestrip .info-text:first-child::after {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .info-text::after {
+.waf-scorestrip .info-text::after {
     left: var(--half-space-negative);
     background-color: hsl(var(--color-hsl-white-default)/0.5)
 }
 
-.waf-scorestrip.widget-layout-07 .team-info {
+.waf-scorestrip .team-info {
     margin-right: var(--full-space)
 }
 
-.waf-scorestrip.widget-layout-07 .card-item {
+.waf-scorestrip .card-item {
     position: relative
 }
 
-.waf-scorestrip.widget-layout-07 .card-footer-text {
+.waf-scorestrip .card-footer-text {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -10001,84 +10003,84 @@ body {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .time-text {
+.waf-scorestrip .time-text {
     padding-inline: var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-07 .btn-more {
+.waf-scorestrip .btn-more {
     display: none
 }
 
-.waf-scorestrip.widget-layout-07 .btn-more .btn-text {
+.waf-scorestrip .btn-more .btn-text {
     font-size: 0
 }
 
-.waf-scorestrip.widget-layout-07 .btn-more.btn-scorecard {
+.waf-scorestrip .btn-more.btn-scorecard {
     display: block
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper {
+.waf-scorestrip .info-wrapper {
     width: 100%;
     animation: marquee linear 30s forwards infinite
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-6 {
+.waf-scorestrip .info-wrapper.child-6 {
     animation-duration: 20s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-7 {
+.waf-scorestrip .info-wrapper.child-7 {
     animation-duration: 20s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-8 {
+.waf-scorestrip .info-wrapper.child-8 {
     animation-duration: 20s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-9 {
+.waf-scorestrip .info-wrapper.child-9 {
     animation-duration: 20s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-10 {
+.waf-scorestrip .info-wrapper.child-10 {
     animation-duration: 20s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-11 {
+.waf-scorestrip .info-wrapper.child-11 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-12 {
+.waf-scorestrip .info-wrapper.child-12 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-13 {
+.waf-scorestrip .info-wrapper.child-13 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-14 {
+.waf-scorestrip .info-wrapper.child-14 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-15 {
+.waf-scorestrip .info-wrapper.child-15 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-16 {
+.waf-scorestrip .info-wrapper.child-16 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-17 {
+.waf-scorestrip .info-wrapper.child-17 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-18 {
+.waf-scorestrip .info-wrapper.child-18 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-19 {
+.waf-scorestrip .info-wrapper.child-19 {
     animation-duration: 10s
 }
 
-.waf-scorestrip.widget-layout-07 .info-wrapper.child-20 {
+.waf-scorestrip .info-wrapper.child-20 {
     animation-duration: 10s
 }
 
@@ -10087,63 +10089,63 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .waf-scorestrip.widget-layout-07 {
+    .waf-scorestrip {
         bottom: unset;
         top: var(--header-height)
     }
 
-    .waf-scorestrip.widget-layout-07 .waf-body {
+    .waf-scorestrip .waf-body {
         padding: unset;
         background-color: rgba(0, 0, 0, 0);
         height: calc(var(--score-height) - var(--half-space))
     }
 
-    .waf-scorestrip.widget-layout-07 .layout-wrapper {
+    .waf-scorestrip .layout-wrapper {
         height: 100%
     }
 
-    .waf-scorestrip.widget-layout-07 .score-strip-slider {
+    .waf-scorestrip .score-strip-slider {
         width: 60%
     }
 
-    .waf-scorestrip.widget-layout-07 .info-section {
+    .waf-scorestrip .info-section {
         width: 40%;
         margin-left: var(--half-space)
     }
 
-    .waf-scorestrip.widget-layout-07 .info-section::after {
+    .waf-scorestrip .info-section::after {
         display: none
     }
 
-    .waf-scorestrip.widget-layout-07 .match-time,
-    .waf-scorestrip.widget-layout-07 .card-footer {
+    .waf-scorestrip .match-time,
+    .waf-scorestrip .card-footer {
         display: flex
     }
 
-    .waf-scorestrip.widget-layout-07 .team-wrapper {
+    .waf-scorestrip .team-wrapper {
         display: flex;
         justify-content: space-around
     }
 
-    .waf-scorestrip.widget-layout-07 .card-item {
+    .waf-scorestrip .card-item {
         padding-inline: var(--half-space);
         border-radius: var(--half-radius);
         overflow: visible;
         background-color: hsl(var(--color-hsl-black-default)/1)
     }
 
-    .waf-scorestrip.widget-layout-07 .card-list,
-    .waf-scorestrip.widget-layout-07 .card-item {
+    .waf-scorestrip .card-list,
+    .waf-scorestrip .card-item {
         height: 100%
     }
 
-    .waf-scorestrip.widget-layout-07 .card-content {
+    .waf-scorestrip .card-content {
         position: relative;
         width: calc(65% - var(--full-space));
         margin-right: var(--two-space)
     }
 
-    .waf-scorestrip.widget-layout-07 .card-content::after {
+    .waf-scorestrip .card-content::after {
         content: "";
         width: .1rem;
         height: 2rem;
@@ -10154,107 +10156,108 @@ body {
         transform: translateY(-50%)
     }
 
-    .waf-scorestrip.widget-layout-07 .card-content::after {
+    .waf-scorestrip .card-content::after {
         right: var(--full-space-negative);
         background-color: hsl(var(--color-hsl-white-default)/0.5)
     }
 
-    .waf-scorestrip.widget-layout-07 .card-footer {
+    .waf-scorestrip .card-footer {
         width: calc(35% - var(--full-space))
     }
 
-    .waf-scorestrip.widget-layout-07 .card-footer-text {
+    .waf-scorestrip .card-footer-text {
         display: block
     }
 
-    .waf-scorestrip.widget-layout-07 .overs {
+    .waf-scorestrip .overs {
         font-size: 1.4rem;
         line-height: 1.6rem
     }
 
-    .waf-scorestrip.widget-layout-07 .score {
+    .waf-scorestrip .score {
         font-size: 2rem;
         line-height: 2.2rem
     }
 
-    .waf-scorestrip.widget-layout-07 .score.no-score {
+    .waf-scorestrip .score.no-score {
         font-size: 1.2rem;
         line-height: 1.4rem
     }
 
-    .waf-scorestrip.widget-layout-07 .card-content,
-    .waf-scorestrip.widget-layout-07 .match-time-wrap,
-    .waf-scorestrip.widget-layout-07 .team-extra {
+    .waf-scorestrip .card-content,
+    .waf-scorestrip .match-time-wrap,
+    .waf-scorestrip .team-extra {
         display: flex;
         align-items: center
     }
 
-    .waf-scorestrip.widget-layout-07 .team-name {
+    .waf-scorestrip .team-name {
         font-size: 1.8rem;
         line-height: 2rem
     }
 
-    .waf-scorestrip.widget-layout-07 .team-info {
+    .waf-scorestrip .team-info {
         margin: unset
     }
 
-    .waf-scorestrip.widget-layout-07 .team-a .team-info {
+    .waf-scorestrip .team-a .team-info {
         margin-right: var(--quater-space)
     }
 
-    .waf-scorestrip.widget-layout-07 .team-b {
+    .waf-scorestrip .team-b {
         flex-direction: row-reverse
     }
 
-    .waf-scorestrip.widget-layout-07 .team-b .team-info {
+    .waf-scorestrip .team-b .team-info {
         margin-left: var(--quater-space)
     }
 }
 
 @media screen and (min-width: 992px) {
-    .waf-scorestrip.widget-layout-07 {
+    .waf-scorestrip {
         padding-inline: var(--full-space)
     }
 
-    .waf-scorestrip.widget-layout-07 .card-item {
+    .waf-scorestrip .card-item {
         padding-inline: var(--full-space)
     }
 
-    .waf-scorestrip.widget-layout-07 .time-text {
+    .waf-scorestrip .time-text {
         margin-inline: var(--full-space)
     }
 
-    .waf-scorestrip.widget-layout-07 .score-strip-slider {
+    .waf-scorestrip .score-strip-slider {
         width: 40%
     }
 
-    .waf-scorestrip.widget-layout-07 .info-section {
+    .waf-scorestrip .info-section {
         width: calc(60% - var(--half-space))
     }
 
-    .waf-scorestrip.widget-layout-07 .team-detail,
-    .waf-scorestrip.widget-layout-07 .team-wrapper {
+    .waf-scorestrip .team-detail,
+    .waf-scorestrip .team-wrapper {
         width: 100%
     }
 }
 
-.dark-mode .waf-scorestrip.widget-layout-08 .card-item,
+.dark-mode .waf-scorestrip .card-item,
 .dark-mode .waf-fixtures .card-item {
-    background: linear-gradient(-45deg, var(--color-accent), var(--color-secondary-dark), var(--color-accent))
+    /* background: linear-gradient(-45deg, var(--color-accent), var(--color-secondary-dark), var(--color-accent)) */
+    background: linear-gradient(-45deg, hsl(321.93deg 94.77% 30%), hsl(240deg 65.38% 10.2%), hsl(240deg 65.38% 10.2%));
 }
 
-.waf-scorestrip.widget-layout-08,
+.waf-scorestrip,
 .waf-fixtures {
     padding: 0;
     margin: 0
 }
 
-.waf-scorestrip.widget-layout-08 .meta:first-child,
+.waf-scorestrip .meta:first-child,
 .waf-fixtures .meta:first-child {
     position: relative
 }
 
-.waf-scorestrip.widget-layout-08 .meta:first-child::after,
+.waf-scorestrip .meta:first-child::after,
 .waf-fixtures .meta:first-child::after {
     content: "";
     width: .1rem;
@@ -10262,41 +10265,41 @@ body {
     right: var(--half-space-negative)
 }
 
-.waf-scorestrip.widget-layout-08 .score,
+.waf-scorestrip .score,
 .waf-fixtures .score {
     display: inline-block
 }
 
-.waf-scorestrip.widget-layout-08 .run-rate,
+.waf-scorestrip .run-rate,
 .waf-fixtures .run-rate {
     display: none
 }
 
-.waf-scorestrip.widget-layout-08 .team-image,
+.waf-scorestrip .team-image,
 .waf-fixtures .team-image {
     aspect-ratio: 1/1
 }
 
-.waf-scorestrip.widget-layout-08 .team-logo,
+.waf-scorestrip .team-logo,
 .waf-fixtures .team-logo {
     width: 5rem;
     aspect-ratio: 1/1
 }
 
-.waf-scorestrip.widget-layout-08 .team-wrapper,
+.waf-scorestrip .team-wrapper,
 .waf-fixtures .team-wrapper {
     margin-bottom: var(--two-space)
 }
 
-.waf-scorestrip.widget-layout-08 .team-current .team-image,
-.waf-scorestrip.widget-layout-08 .team-won .team-image,
+.waf-scorestrip .team-current .team-image,
+.waf-scorestrip .team-won .team-image,
 .waf-fixtures .team-current .team-image,
 .waf-fixtures .team-won .team-image {
     position: relative
 }
 
-.waf-scorestrip.widget-layout-08 .team-current .team-image::before,
-.waf-scorestrip.widget-layout-08 .team-won .team-image::before,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
 .waf-fixtures .team-current .team-image::before,
 .waf-fixtures .team-won .team-image::before {
     content: "";
@@ -10306,23 +10309,23 @@ body {
     border: .3rem solid var(--color-accent)
 }
 
-.waf-scorestrip.widget-layout-08 .card-head,
+.waf-scorestrip .card-head,
 .waf-fixtures .card-head {
     margin-block: var(--full-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item,
+.waf-scorestrip .card-item,
 .waf-fixtures .card-item {
     background: var(--color-primary-dark);
     position: relative;
     flex-shrink: 0;
     transition: all ease 500ms;
-    background: linear-gradient(-45deg, var(--color-primary), var(--color-secondary-dark), var(--color-primary));
+    background: linear-gradient(-45deg, var(--theme-color), var(--theme-color),  var(--theme-color));
     background-size: 200% 200%;
     animation: gradient-bg 20s ease infinite
 }
 
-.waf-scorestrip.widget-layout-08 .card-item::after,
+.waf-scorestrip .card-item::after,
 .waf-fixtures .card-item::after {
     content: "";
     background: url(../../static-assets/images/cssimages/homepage/fixture-bgc9e4.png?v=3.1) center center no-repeat;
@@ -10334,7 +10337,7 @@ body {
     pointer-events: none
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.live .status::before,
+.waf-scorestrip .card-item.live .status::before,
 .waf-fixtures .card-item.live .status::before {
     content: "";
     display: inline-block;
@@ -10344,22 +10347,27 @@ body {
     background-size: contain
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .status,
+.waf-scorestrip .card-item.upcoming .status,
 .waf-fixtures .card-item.upcoming .status {
     background-color: var(--color-grey)
 }
 
-.waf-scorestrip.widget-layout-08 .card-footer-text,
+.waf-scorestrip .card-footer-text,
 .waf-fixtures .card-footer-text {
     text-align: center
 }
 
-.waf-scorestrip.widget-layout-08 .card-footer,
+.waf-scorestrip .card-footer,
 .waf-fixtures .card-footer {
-    position: relative
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    border-top: none;
 }
 
-.waf-scorestrip.widget-layout-08 .card-footer::before,
+.waf-scorestrip .card-footer::before,
 .waf-fixtures .card-footer::before {
     content: "";
     height: .1rem;
@@ -10367,7 +10375,7 @@ body {
     top: var(--full-space-negative)
 }
 
-.waf-scorestrip.widget-layout-08 .status,
+.waf-scorestrip .status,
 .waf-fixtures .status {
     border-radius: 50vmax;
     height: 2.4rem;
@@ -10375,14 +10383,14 @@ body {
     padding: var(--quater-space) var(--half-space)
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-wrapper,
+.waf-scorestrip .countdown-wrapper,
 .waf-fixtures .countdown-wrapper {
     height: 6.2rem;
     position: relative
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::after,
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::before,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
 .waf-fixtures .countdown-wrapper::after,
 .waf-fixtures .countdown-wrapper::before {
     content: "";
@@ -10390,31 +10398,31 @@ body {
     width: 100%
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::before,
+.waf-scorestrip .countdown-wrapper::before,
 .waf-fixtures .countdown-wrapper::before {
     top: 0
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::after,
 .waf-fixtures .countdown-wrapper::after {
     display: none;
     bottom: 0
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-wrapper .icon:after,
+.waf-scorestrip .countdown-wrapper .icon:after,
 .waf-fixtures .countdown-wrapper .icon:after {
     content: "";
     font-size: 2rem;
     font-family: "waf-font-icon"
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-item,
+.waf-scorestrip .countdown-item,
 .waf-fixtures .countdown-item {
     width: 25%;
     position: relative
 }
 
-.waf-scorestrip.widget-layout-08 .countdown-item::after,
+.waf-scorestrip .countdown-item::after,
 .waf-fixtures .countdown-item::after {
     content: "";
     width: .1rem;
@@ -10422,8 +10430,8 @@ body {
     left: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-label,
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-footer-text {
+.waf-shimmer.waf-scorestrip .card-label,
+.waf-shimmer.waf-scorestrip .card-footer-text {
     width: 17rem;
     height: 2rem;
     display: block;
@@ -10435,8 +10443,8 @@ body {
     position: relative
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-label::after,
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-footer-text::after {
+.waf-shimmer.waf-scorestrip .card-label::after,
+.waf-shimmer.waf-scorestrip .card-footer-text::after {
     content: "";
     background-image: linear-gradient(-45deg, var(--shimmer-light-color) 0%, var(--shimmer-light-color) 40%, var(--shimmer-dark-color) 50%, var(--shimmer-light-color) 60%, var(--shimmer-light-color) 100%);
     position: absolute;
@@ -10446,16 +10454,16 @@ body {
     animation: placeholderShimmer 2s linear 0s infinite normal forwards
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-label *,
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-footer-text * {
+.waf-shimmer.waf-scorestrip .card-label *,
+.waf-shimmer.waf-scorestrip .card-footer-text * {
     font-size: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-footer-text {
+.waf-shimmer.waf-scorestrip .card-footer-text {
     margin-inline: auto
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-number {
+.waf-shimmer.waf-scorestrip .card-number {
     width: 5rem;
     height: 1.8rem;
     display: block;
@@ -10467,7 +10475,7 @@ body {
     position: relative
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-number::after {
+.waf-shimmer.waf-scorestrip .card-number::after {
     content: "";
     background-image: linear-gradient(-45deg, var(--shimmer-light-color) 0%, var(--shimmer-light-color) 40%, var(--shimmer-dark-color) 50%, var(--shimmer-light-color) 60%, var(--shimmer-light-color) 100%);
     position: absolute;
@@ -10477,11 +10485,11 @@ body {
     animation: placeholderShimmer 2s linear 0s infinite normal forwards
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .card-number * {
+.waf-shimmer.waf-scorestrip .card-number * {
     font-size: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .date-time {
+.waf-shimmer.waf-scorestrip .date-time {
     width: 7rem;
     height: 1.8rem;
     display: block;
@@ -10493,7 +10501,7 @@ body {
     position: relative
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .date-time::after {
+.waf-shimmer.waf-scorestrip .date-time::after {
     content: "";
     background-image: linear-gradient(-45deg, var(--shimmer-light-color) 0%, var(--shimmer-light-color) 40%, var(--shimmer-dark-color) 50%, var(--shimmer-light-color) 60%, var(--shimmer-light-color) 100%);
     position: absolute;
@@ -10503,15 +10511,15 @@ body {
     animation: placeholderShimmer 2s linear 0s infinite normal forwards
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .date-time * {
+.waf-shimmer.waf-scorestrip .date-time * {
     font-size: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-logo {
+.waf-shimmer.waf-scorestrip .team-logo {
     object-position: 10rem
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-data {
+.waf-shimmer.waf-scorestrip .team-data {
     margin-top: 1rem;
     width: 9rem;
     height: 1.8rem;
@@ -10524,7 +10532,7 @@ body {
     position: relative
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-data::after {
+.waf-shimmer.waf-scorestrip .team-data::after {
     content: "";
     background-image: linear-gradient(-45deg, var(--shimmer-light-color) 0%, var(--shimmer-light-color) 40%, var(--shimmer-dark-color) 50%, var(--shimmer-light-color) 60%, var(--shimmer-light-color) 100%);
     position: absolute;
@@ -10534,11 +10542,11 @@ body {
     animation: placeholderShimmer 2s linear 0s infinite normal forwards
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-data * {
+.waf-shimmer.waf-scorestrip .team-data * {
     font-size: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-image {
+.waf-shimmer.waf-scorestrip .team-image {
     display: block;
     font-size: 0;
     background: var(--shimmer-light-color);
@@ -10548,7 +10556,7 @@ body {
     position: relative
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-image::after {
+.waf-shimmer.waf-scorestrip .team-image::after {
     content: "";
     background-image: linear-gradient(-45deg, var(--shimmer-light-color) 0%, var(--shimmer-light-color) 40%, var(--shimmer-dark-color) 50%, var(--shimmer-light-color) 60%, var(--shimmer-light-color) 100%);
     position: absolute;
@@ -10558,16 +10566,16 @@ body {
     animation: placeholderShimmer 2s linear 0s infinite normal forwards
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-image * {
+.waf-shimmer.waf-scorestrip .team-image * {
     font-size: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-score,
-.waf-shimmer.waf-scorestrip.widget-layout-08 .team-extra {
+.waf-shimmer.waf-scorestrip .team-score,
+.waf-shimmer.waf-scorestrip .team-extra {
     opacity: 0
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .time-text {
+.waf-shimmer.waf-scorestrip .time-text {
     margin-top: 4rem;
     width: 2rem;
     height: 2rem;
@@ -10580,7 +10588,7 @@ body {
     position: relative
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .time-text::after {
+.waf-shimmer.waf-scorestrip .time-text::after {
     content: "";
     background-image: linear-gradient(-45deg, var(--shimmer-light-color) 0%, var(--shimmer-light-color) 40%, var(--shimmer-dark-color) 50%, var(--shimmer-light-color) 60%, var(--shimmer-light-color) 100%);
     position: absolute;
@@ -10590,17 +10598,17 @@ body {
     animation: placeholderShimmer 2s linear 0s infinite normal forwards
 }
 
-.waf-shimmer.waf-scorestrip.widget-layout-08 .time-text * {
+.waf-shimmer.waf-scorestrip .time-text * {
     font-size: 0
 }
 
-.waf-scorestrip.widget-layout-08 .swiper,
+.waf-scorestrip .swiper,
 .waf-fixtures .swiper {
     position: relative
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-button-next,
-.waf-scorestrip.widget-layout-08 .swiper-button-prev,
+.waf-scorestrip .swiper-button-next,
+.waf-scorestrip .swiper-button-prev,
 .waf-fixtures .swiper-button-next,
 .waf-fixtures .swiper-button-prev {
     display: none;
@@ -10609,144 +10617,144 @@ body {
     transform: translateY(-50%)
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-button-prev,
+.waf-scorestrip .swiper-button-prev,
 .waf-fixtures .swiper-button-prev {
     left: 0
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-button-next,
+.waf-scorestrip .swiper-button-next,
 .waf-fixtures .swiper-button-next {
     right: 0
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-3d .swiper-slide-shadow-right,
-.waf-scorestrip.widget-layout-08 .swiper .swiper-slide-shadow-left,
+.waf-scorestrip .swiper-3d .swiper-slide-shadow-right,
+.waf-scorestrip .swiper .swiper-slide-shadow-left,
 .waf-fixtures .swiper-3d .swiper-slide-shadow-right,
 .waf-fixtures .swiper .swiper-slide-shadow-left {
     background-image: unset
 }
 
-.waf-scorestrip.widget-layout-08 .accordion-head,
+.waf-scorestrip .accordion-head,
 .waf-fixtures .accordion-head {
     display: none
 }
 
-.waf-scorestrip.widget-layout-08 .time-text,
+.waf-scorestrip .time-text,
 .waf-fixtures .time-text {
     height: 8.5rem
 }
 
-.waf-scorestrip.widget-layout-08 .team-image,
+.waf-scorestrip .team-image,
 .waf-fixtures .team-image {
     width: 8.5rem;
     height: 8.5rem;
     aspect-ratio: 1/1
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-slide {
+.waf-scorestrip .swiper-slide {
     -webkit-box-shadow: 0 0 1.2rem hsl(var(--color-hsl-black-light)/0.5);
     -moz-box-shadow: 0 0 1.2rem hsl(var(--color-hsl-black-light)/0.5);
     box-shadow: 0 0 1.2rem hsl(var(--color-hsl-black-light)/0.5)
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-slide .team-logo {
+.waf-scorestrip .swiper-slide .team-logo {
     width: 6rem;
     height: 6rem
 }
 
-.waf-scorestrip.widget-layout-08 .swiper-slide .countdown-wrapper .icon::after {
+.waf-scorestrip .swiper-slide .countdown-wrapper .icon::after {
     font-size: 2.5rem
 }
 
-.waf-scorestrip.widget-layout-08 .card-item {
+.waf-scorestrip .card-item {
     height: 47.3rem;
     margin-top: 1.2rem
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .team-wrapper {
+.waf-scorestrip .card-item .team-wrapper {
     margin-bottom: var(--full-space)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .countdown-wrapper::after {
+.waf-scorestrip .card-item.upcoming .countdown-wrapper::after {
     display: block
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer-text {
+.waf-scorestrip .card-item.upcoming .card-footer-text {
     width: max-content;
     max-width: 100%
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.upcoming .card-footer-text::before {
+.waf-scorestrip .card-item.upcoming .card-footer-text::before {
     content: "";
     font: 1.5rem/1.7rem "waf-font-icon"
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-footer::before {
+.waf-scorestrip .card-item .card-footer::before {
     top: var(--half-space-negative)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-footer-text {
+.waf-scorestrip .card-item .card-footer-text {
     line-height: 1.6rem
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .card-footer .btn-more:nth-child(2) {
+.waf-scorestrip .card-item .card-footer .btn-more:nth-child(2) {
     width: 100%;
     border-color: var(--color-white-default);
     background-color: rgba(0, 0, 0, 0)
 }
 
-.waf-scorestrip.widget-layout-08 .card-item .meta:first-child::after {
+.waf-scorestrip .card-item .meta:first-child::after {
     height: 100%
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .score {
+.waf-scorestrip .card-item.super-over .score {
     font-size: 2rem;
     line-height: 2rem
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .overs {
+.waf-scorestrip .card-item.super-over .overs {
     font-size: 1.2rem;
     line-height: 2rem
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data {
+.waf-scorestrip .card-item.super-over .team-data {
     position: relative;
     flex-direction: row;
     align-items: flex-end
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-data:not(:first-child)::before {
+.waf-scorestrip .card-item.super-over .team-data:not(:first-child)::before {
     content: "";
     height: .1rem;
     width: 100%;
     top: -0.3rem
 }
 
-.waf-scorestrip.widget-layout-08 .card-item.super-over .team-b .team-data {
+.waf-scorestrip .card-item.super-over .team-b .team-data {
     flex-direction: row-reverse
 }
 
 @media screen and (min-width: 768px) {
-    .waf-scorestrip.widget-layout-08 .waf-head {
+    .waf-scorestrip .waf-head {
         margin-bottom: var(--full-space)
     }
 
-    .waf-scorestrip.widget-layout-08 .accordion-body {
+    .waf-scorestrip .accordion-body {
         margin-bottom: 0
     }
 
-    .waf-scorestrip.widget-layout-08 .score-strip-slider {
+    .waf-scorestrip .score-strip-slider {
         width: calc(100% - 10rem);
         margin: auto;
         position: unset
     }
 
-    .waf-scorestrip.widget-layout-08 .waf-body {
+    .waf-scorestrip .waf-body {
         position: relative
     }
 
-    .waf-scorestrip.widget-layout-08 .swiper-button-next,
-    .waf-scorestrip.widget-layout-08 .swiper-button-prev {
+    .waf-scorestrip .swiper-button-next,
+    .waf-scorestrip .swiper-button-prev {
         display: flex
     }
 }
@@ -10956,7 +10964,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
     animation: swiper-preloader-spin 1s infinite linear
 }
 
-.text-light{
+.text-light {
     color: #fff !important;
 }
 
@@ -12612,7 +12620,720 @@ select {
         height: auto;
     }
 
-   .site-header-wrapper .head-wrap{
-    display: none;
-   }
+    .site-header-wrapper .head-wrap {
+        display: none;
+    }
+}
+
+/* Score Card */
+
+.waf-scorestrip .countdown-label,
+.waf-fixtures .countdown-label {
+    font: 1rem/1.6rem "Romagna-Regular", sans-serif
+}
+
+.waf-scorestrip .status,
+.waf-fixtures .status {
+    font: 1rem/1.6rem "Montserrat-Bold", sans-serif
+}
+
+.waf-fixtures .card-footer-text,
+.waf-fixtures .upcoming-tab-container .card-venue {
+    font: 1rem/1.6rem "Montserrat-Medium", sans-serif
+}
+
+.waf-scorestrip .card-item .btn-more .btn-text,
+.waf-fixtures .card-item .btn-more .btn-text {
+    font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif
+}
+
+.waf-scorestrip .text,
+.waf-fixtures .text,
+.waf-scorestrip .number,
+.waf-fixtures .number,
+.waf-scorestrip .meta,
+.waf-fixtures .meta {
+    font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif
+}
+
+.waf-scorestrip .overs,
+.waf-fixtures .overs,
+.waf-scorestrip .card-footer-text,
+.waf-fixtures .card-footer-text {
+    font: 1.4rem/2rem "Romagna-Regular", sans-serif
+}
+
+.waf-scorestrip .time-text,
+.waf-fixtures .time-text {
+    font: 1.4rem/2rem "Romagna-Bold", sans-serif
+}
+
+.waf-scorestrip .countdown-count,
+.waf-fixtures .countdown-count {
+    font: 2.4rem/3rem "Romagna-Bold", sans-serif
+}
+
+.waf-scorestrip .score,
+.waf-fixtures .score {
+    font: 2.6rem/3.2rem "Romagna-Bold", sans-serif
+}
+
+.waf-fixtures .waf-head .title {
+    font: 2.8rem/3.4rem "Romagna-Bold", sans-serif
+}
+
+.waf-fixtures .recent-tab-container .countdown-list .countdown-item::after,
+.waf-fixtures .upcoming-tab-container .countdown-list .countdown-item::after {
+    background-color: hsl(var(--color-hsl-primary-dark)/0.1)
+}
+
+.waf-fixtures .recent-tab-container .time-text,
+.waf-fixtures .upcoming-tab-container .time-text {
+    color: hsl(var(--color-hsl-primary-dark)/1)
+}
+
+.waf-fixtures .upcoming-tab-container .notification {
+    background-color: hsl(var(--color-hsl-black-light)/0.1)
+}
+
+.waf-fixtures .upcoming-tab-container .notification:after,
+.waf-fixtures .upcoming-tab-container .btn-more.btn-ticket .btn-text {
+    color: hsl(var(--color-hsl-black-light)/1)
+}
+
+.dark-mode .waf-fixtures .upcoming-tab-container .card-item,
+.dark-mode .waf-fixtures .recent-tab-container .card-item {
+    background-color: hsl(var(--color-hsl-black-light)/1)
+}
+
+.waf-fixtures .recent-tab-container .meta:first-child:after,
+.waf-fixtures .upcoming-tab-container .meta:first-child:after,
+.waf-fixtures .recent-tab-container .team-wrapper::before,
+.waf-fixtures .upcoming-tab-container .team-wrapper::before,
+.waf-fixtures .recent-tab-container .team-data::before,
+.waf-fixtures .upcoming-tab-container .team-data::before,
+.waf-fixtures .recent-tab-container .card-number::after,
+.waf-fixtures .upcoming-tab-container .card-number::after,
+.waf-fixtures .recent-tab-container .card-footer::before,
+.waf-fixtures .upcoming-tab-container .card-footer::before,
+.waf-fixtures .upcoming-tab-container .card-venue::before {
+    background-color: hsl(var(--color-hsl-black-default)/0.1)
+}
+
+.waf-fixtures .recent-tab-container .score,
+.waf-fixtures .upcoming-tab-container .score,
+.waf-fixtures .recent-tab-container .overs,
+.waf-fixtures .upcoming-tab-container .overs,
+.waf-fixtures .recent-tab-container .super-overs .team-current .score,
+.waf-fixtures .recent-tab-container .super-overs .team-won .score,
+.waf-fixtures .upcoming-tab-container .super-overs .team-current .score,
+.waf-fixtures .upcoming-tab-container .super-overs .team-won .score,
+.waf-fixtures .recent-tab-container .super-overs .team-current .overs,
+.waf-fixtures .recent-tab-container .super-overs .team-won .overs,
+.waf-fixtures .upcoming-tab-container .super-overs .team-current .overs,
+.waf-fixtures .upcoming-tab-container .super-overs .team-won .overs {
+    color: hsl(var(--color-hsl-black-default)/0.3)
+}
+
+.waf-fixtures .upcoming-tab-container .countdown-item::after {
+    background-color: hsl(var(--color-hsl-black-default)/0.3)
+}
+
+.waf-fixtures .recent-tab-container .text,
+.waf-fixtures .upcoming-tab-container .text,
+.waf-fixtures .recent-tab-container .number,
+.waf-fixtures .upcoming-tab-container .number,
+.waf-fixtures .recent-tab-container .meta,
+.waf-fixtures .upcoming-tab-container .meta,
+.waf-fixtures .recent-tab-container .card-footer-text,
+.waf-fixtures .upcoming-tab-container .card-footer-text,
+.waf-fixtures .recent-tab-container .team-current .score,
+.waf-fixtures .recent-tab-container .team-won .score,
+.waf-fixtures .upcoming-tab-container .team-current .score,
+.waf-fixtures .upcoming-tab-container .team-won .score,
+.waf-fixtures .recent-tab-container .team-current .overs,
+.waf-fixtures .recent-tab-container .team-won .overs,
+.waf-fixtures .upcoming-tab-container .team-current .overs,
+.waf-fixtures .upcoming-tab-container .team-won .overs,
+.waf-fixtures .recent-tab-container .super-overs .team-current .team-data:last-child .score,
+.waf-fixtures .recent-tab-container .super-overs .team-won .team-data:last-child .score,
+.waf-fixtures .upcoming-tab-container .super-overs .team-current .team-data:last-child .score,
+.waf-fixtures .upcoming-tab-container .super-overs .team-won .team-data:last-child .score,
+.waf-fixtures .recent-tab-container .super-overs .team-current .team-data:last-child .overs,
+.waf-fixtures .recent-tab-container .super-overs .team-won .team-data:last-child .overs,
+.waf-fixtures .upcoming-tab-container .super-overs .team-current .team-data:last-child .overs,
+.waf-fixtures .upcoming-tab-container .super-overs .team-won .team-data:last-child .overs,
+.waf-fixtures .upcoming-tab-container .countdown-label,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper .icon::after,
+.waf-fixtures .upcoming-tab-container .card-venue,
+.waf-scorestrip .card-item.upcoming .status,
+.waf-fixtures .card-item.upcoming .status {
+    color: hsl(var(--color-hsl-black-default)/1)
+}
+
+.dark-mode .waf-fixtures .upcoming-tab-container .countdown-count {
+    color: hsl(var(--color-hsl-accent)/1)
+}
+
+.waf-fixtures .card-item.notification-active .notification,
+.waf-fixtures .upcoming-tab-container .notification-active .notification {
+    background-color: hsl(var(--color-hsl-accent)/1)
+}
+
+.dark-mode .waf-fixtures .upcoming-tab-container .time-text::after,
+.dark-mode .waf-fixtures .recent-tab-container .time-text::after,
+.dark-mode .waf-fixtures .upcoming-tab-container .notification,
+.waf-fixtures .notification,
+.waf-fixtures .time-text::after,
+.waf-fixtures .team-wrapper::before,
+.waf-fixtures .team-data:not(:first-child)::before,
+.waf-fixtures .card-number::after,
+.waf-scorestrip .meta:first-child::after,
+.waf-fixtures .meta:first-child::after {
+    background-color: hsl(var(--color-hsl-white-default)/0.1)
+}
+
+.waf-scorestrip .card-footer::before,
+.waf-fixtures .card-footer::before,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
+.waf-fixtures .countdown-wrapper::after,
+.waf-fixtures .countdown-wrapper::before,
+.waf-scorestrip .countdown-item::after,
+.waf-fixtures .countdown-item::after {
+    background-color: hsl(var(--color-hsl-white-default)/0.2)
+}
+
+.waf-fixtures .recent-tab-container .score,
+.waf-fixtures .recent-tab-container .overs,
+.waf-fixtures .recent-tab-container .super-overs .overs,
+.waf-fixtures .recent-tab-container .super-overs .score,
+.waf-fixtures .super-overs .team-current .score,
+.waf-fixtures .super-overs .team-won .score,
+.waf-fixtures .super-overs .team-current .overs,
+.waf-fixtures .super-overs .team-won .overs,
+.waf-scorestrip .score,
+.waf-fixtures .score,
+.waf-scorestrip .overs,
+.waf-fixtures .overs {
+    color: hsl(var(--color-hsl-white-default)/0.3)
+}
+
+.waf-fixtures .upcoming-tab-container .card-number::after,
+.waf-fixtures .recent-tab-container .card-number::after,
+.waf-fixtures .upcoming-tab-container .btn-group::before,
+.waf-fixtures .recent-tab-container .btn-group::before,
+.waf-fixtures .upcoming-tab-container .team-wrapper::before,
+.waf-fixtures .upcoming-tab-container .card-venue::before,
+.waf-fixtures .upcoming-tab-container .countdown-venue-wrapper::before,
+.waf-fixtures .upcoming-tab-container .countdown-item::after,
+.waf-fixtures .upcoming-tab-container .meta:first-child:after,
+.waf-fixtures .recent-tab-container .card-footer::before {
+    background-color: hsl(var(--color-hsl-white-default)/0.3)
+}
+
+.waf-fixtures .upcoming-tab-container .btn-more.btn-ticket .btn-text,
+.waf-scorestrip .text,
+.waf-fixtures .text,
+.waf-scorestrip .number,
+.waf-fixtures .number,
+.waf-scorestrip .meta,
+.waf-fixtures .meta {
+    color: hsl(var(--color-hsl-white-default)/0.7)
+}
+
+.waf-fixtures .upcoming-tab-container .time-text,
+.waf-fixtures .recent-tab-container .time-text,
+.waf-fixtures .upcoming-tab-container .text,
+.waf-fixtures .recent-tab-container .text,
+.waf-fixtures .upcoming-tab-container .number,
+.waf-fixtures .recent-tab-container .number,
+.waf-fixtures .upcoming-tab-container .meta,
+.waf-fixtures .recent-tab-container .meta,
+.waf-fixtures .upcoming-tab-container .notification:after,
+.waf-fixtures .upcoming-tab-container .card-venue,
+.waf-fixtures .upcoming-tab-container .countdown-label,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper .icon::after,
+.waf-fixtures .recent-tab-container .card-footer-text,
+.waf-fixtures .recent-tab-container .super-overs .card-number::before,
+.waf-fixtures .recent-tab-container .super-overs .team-data:last-child .score,
+.waf-fixtures .recent-tab-container .super-overs .team-data:last-child .overs,
+.waf-fixtures .notification::after,
+.waf-fixtures .super-overs .team-current .team-data:last-child .score,
+.waf-fixtures .super-overs .team-won .team-data:last-child .score,
+.waf-fixtures .super-overs .team-current .team-data:last-child .overs,
+.waf-fixtures .super-overs .team-won .team-data:last-child .overs,
+.waf-fixtures .super-overs .card-number::before,
+.waf-fixtures .text,
+.waf-fixtures .number,
+.waf-fixtures .upcoming-tab-container .notification-active .notification:after,
+.waf-scorestrip .time-text,
+.waf-fixtures .time-text,
+.waf-scorestrip .team-current .score,
+.waf-scorestrip .team-won .score,
+.waf-fixtures .team-current .score,
+.waf-fixtures .team-won .score,
+.waf-scorestrip .team-current .overs,
+.waf-scorestrip .team-won .overs,
+.waf-fixtures .team-current .overs,
+.waf-fixtures .team-won .overs,
+.waf-scorestrip .card-footer-text,
+.waf-fixtures .card-footer-text,
+.waf-scorestrip .status,
+.waf-fixtures .status,
+.waf-scorestrip .countdown-wrapper .icon:after,
+.waf-fixtures .countdown-wrapper .icon:after,
+.waf-scorestrip .countdown-count,
+.waf-fixtures .countdown-count,
+.waf-scorestrip .countdown-label,
+.waf-fixtures .countdown-label,
+.waf-scorestrip .card-item .btn-more .btn-text,
+.waf-fixtures .card-item .btn-more .btn-text {
+    color: hsl(var(--color-hsl-white-default)/1)
+}
+
+.waf-fixtures .recent-tab-container .card-item,
+.waf-fixtures .upcoming-tab-container .card-item,
+.waf-scorestrip .team-image,
+.waf-fixtures .team-image {
+    background-color: hsl(var(--color-hsl-white-default)/1)
+}
+
+.waf-scorestrip .card-item.recent .status,
+.waf-fixtures .card-item.recent .status {
+    background-color: hsl(var(--color-hsl-error-text)/1)
+}
+
+.waf-scorestrip .card-item.live .status,
+.waf-fixtures .card-item.live .status {
+    background-color: hsl(var(--color-hsl-success-text)/1)
+}
+
+.waf-fixtures .recent-tab-container .time-text::after,
+.waf-fixtures .upcoming-tab-container .time-text::after {
+    background-color: hsl(var(--color-hsl-button-primary)/0.1)
+}
+
+.waf-fixtures .upcoming-tab-container .countdown-count {
+    color: hsl(var(--color-hsl-button-primary)/1)
+}
+
+.waf-scorestrip .card-item .btn-more,
+.waf-fixtures .card-item .btn-more {
+    background-color: hsl(var(--color-hsl-button-primary)/1)
+}
+
+.waf-scorestrip .countdown-wrapper,
+.waf-fixtures .countdown-wrapper,
+.waf-scorestrip .countdown-list,
+.waf-fixtures .countdown-list {
+    display: flex
+}
+
+.waf-scorestrip .team-wrapper,
+.waf-fixtures .team-wrapper {
+    display: flex;
+    justify-content: space-between
+}
+
+.waf-scorestrip .head-wrap,
+.waf-fixtures .head-wrap,
+.waf-scorestrip .card-list,
+.waf-fixtures .card-list,
+.waf-scorestrip .status,
+.waf-fixtures .status {
+    display: flex;
+    align-items: center
+}
+
+.waf-scorestrip .card-item .btn-more,
+.waf-fixtures .card-item .btn-more {
+    display: flex;
+    justify-content: center
+}
+
+.waf-scorestrip .team-image,
+.waf-fixtures .team-image {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.waf-scorestrip .countdown-item,
+.waf-fixtures .countdown-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.waf-fixtures .card-list {
+    display: flex;
+}
+
+.waf-fixtures .super-overs .card-number::before,
+.waf-fixtures .card-number::after,
+.waf-scorestrip .meta:first-child::after,
+.waf-fixtures .meta:first-child::after,
+.waf-scorestrip .countdown-item::after,
+.waf-fixtures .countdown-item::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.waf-fixtures .team-wrapper::before,
+.waf-fixtures .team-data:not(:first-child)::before,
+.waf-fixtures .team-wrapper::after,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper,
+.waf-fixtures .upcoming-tab-container .card-venue::before,
+.waf-scorestrip .card-item::after,
+.waf-fixtures .card-item::after,
+.waf-scorestrip .card-footer::before,
+.waf-fixtures .card-footer::before,
+.waf-scorestrip .status,
+.waf-fixtures .status,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
+.waf-fixtures .countdown-wrapper::after,
+.waf-fixtures .countdown-wrapper::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.waf-fixtures .notification::after,
+.waf-fixtures .time-text::after,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
+.waf-fixtures .team-current .team-image::before,
+.waf-fixtures .team-won .team-image::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.waf-fixtures .super-overs .card-number::before,
+.waf-fixtures .card-number::after,
+.waf-scorestrip .meta:first-child::after,
+.waf-fixtures .meta:first-child::after,
+.waf-scorestrip .countdown-item::after,
+.waf-fixtures .countdown-item::after {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.waf-fixtures .team-wrapper::before,
+.waf-fixtures .team-data:not(:first-child)::before,
+.waf-fixtures .team-wrapper::after,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper,
+.waf-fixtures .upcoming-tab-container .card-venue::before,
+.waf-scorestrip .card-item::after,
+.waf-fixtures .card-item::after,
+.waf-scorestrip .card-footer::before,
+.waf-fixtures .card-footer::before,
+.waf-scorestrip .status,
+.waf-fixtures .status,
+.waf-scorestrip .countdown-wrapper::after,
+.waf-scorestrip .countdown-wrapper::before,
+.waf-fixtures .countdown-wrapper::after,
+.waf-fixtures .countdown-wrapper::before {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.waf-fixtures .notification::after,
+.waf-fixtures .time-text::after,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
+.waf-fixtures .team-current .team-image::before,
+.waf-fixtures .team-won .team-image::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.waf-scorestrip .team-image,
+.waf-fixtures .team-image {
+    border-radius: 50%;
+    overflow: visible
+}
+
+.waf-scorestrip .card-item,
+.waf-fixtures .card-item {
+    border-radius: var(--half-radius)
+}
+
+.waf-fixtures .notification,
+.waf-fixtures .time-text::after,
+.waf-scorestrip .team-current .team-image::before,
+.waf-scorestrip .team-won .team-image::before,
+.waf-fixtures .team-current .team-image::before,
+.waf-fixtures .team-won .team-image::before {
+    border-radius: 50%;
+    overflow: visible
+}
+
+.waf-scorestrip .card-item,
+.waf-fixtures .card-item {
+    margin-top: var(--full-space)
+}
+
+.waf-fixtures .upcoming-tab-container .btn-more:nth-child(2) {
+    margin-top: var(--half-space)
+}
+
+.waf-fixtures .team-data:not(:first-child) {
+    margin-top: var(--quater-space)
+}
+
+.waf-fixtures .card-number,
+.waf-scorestrip .meta:first-child,
+.waf-fixtures .meta:first-child {
+    margin-right: var(--full-space)
+}
+
+.waf-scorestrip .card-item.live .status::before,
+.waf-fixtures .card-item.live .status::before {
+    margin-right: var(--quater-space)
+}
+
+.waf-fixtures .waf-head .title,
+.waf-scorestrip .card-footer-text,
+.waf-fixtures .card-footer-text,
+.waf-scorestrip .countdown-wrapper,
+.waf-fixtures .countdown-wrapper {
+    margin-bottom: var(--full-space)
+}
+
+.waf-scorestrip .card-item,
+.waf-fixtures .card-item {
+    margin-top: var(--full-space)
+}
+
+.waf-fixtures .upcoming-tab-container .btn-more:nth-child(2) {
+    margin-top: var(--half-space)
+}
+
+.waf-fixtures .team-data:not(:first-child) {
+    margin-top: var(--quater-space)
+}
+
+.waf-fixtures .card-number,
+.waf-scorestrip .meta:first-child,
+.waf-fixtures .meta:first-child {
+    margin-right: var(--full-space)
+}
+
+.waf-scorestrip .card-item.live .status::before,
+.waf-fixtures .card-item.live .status::before {
+    margin-right: var(--quater-space)
+}
+
+.waf-fixtures .waf-head .title,
+.waf-scorestrip .card-footer-text,
+.waf-fixtures .card-footer-text,
+.waf-scorestrip .countdown-wrapper,
+.waf-fixtures .countdown-wrapper {
+    margin-bottom: var(--full-space)
+}
+
+.waf-fixtures {
+    padding-inline: var(--half-space)
+}
+
+.waf-fixtures {
+    margin-inline: var(--half-space-negative)
+}
+
+.waf-fixtures .overs,
+.waf-fixtures .team-data-wrap {
+    margin-inline: var(--quater-space)
+}
+
+.waf-fixtures .waf-head .title {
+    margin-inline: auto
+}
+
+.waf-fixtures .team-wrapper {
+    margin-block: var(--full-space)
+}
+
+.waf-fixtures {
+    padding-block: var(--full-space)
+}
+
+.waf-fixtures .card-head,
+.waf-fixtures .upcoming-tab-container .card-venue {
+    margin-block: var(--half-space)
+}
+
+.waf-scorestrip .card-item,
+.waf-fixtures .card-item,
+.waf-scorestrip .countdown-wrapper .icon,
+.waf-fixtures .countdown-wrapper .icon,
+.waf-scorestrip .countdown-item,
+.waf-fixtures .countdown-item {
+    padding: var(--full-space)
+}
+
+.waf-fixtures .upcoming-tab-container .countdown-item,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper .icon {
+    padding: var(--half-space)
+}
+
+.waf-fixtures .team-image {
+    padding: var(--quater-space)
+}
+
+.waf-fixtures .card-item .btn-more,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper .icon::after {
+    margin: auto
+}
+
+.waf-scorestrip .countdown-wrapper .icon,
+.waf-fixtures .countdown-wrapper .icon {
+    width: 20%
+}
+
+.waf-scorestrip .countdown-list,
+.waf-fixtures .countdown-list {
+    width: 80%
+}
+
+.waf-fixtures .team-logo,
+.waf-scorestrip .card-item,
+.waf-fixtures .card-item,
+.waf-scorestrip .card-list,
+.waf-fixtures .card-list {
+    width: 100%
+}
+
+.waf-fixtures .waf-head .title,
+.waf-scorestrip .meta,
+.waf-fixtures .meta,
+.waf-scorestrip .time-text,
+.waf-fixtures .time-text,
+.waf-scorestrip .card-item .btn-text,
+.waf-fixtures .card-item .btn-text {
+    text-transform: uppercase
+}
+
+.waf-scorestrip .text,
+.waf-fixtures .text,
+.waf-scorestrip .number,
+.waf-fixtures .number,
+.waf-scorestrip .status,
+.waf-fixtures .status {
+    text-transform: capitalize
+}
+
+.waf-scorestrip .card-item .btn-more,
+.waf-fixtures .card-item .btn-more {
+    width: max-content;
+    height: max-content;
+    border: .1rem solid;
+    padding: var(--half-space) var(--full-space);
+    border-radius: var(--half-radius);
+    overflow: visible
+}
+
+.waf-scorestrip .card-item .btn-more,
+.waf-fixtures .card-item .btn-more {
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.waf-fixtures .match-time,
+.waf-fixtures .team-image {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.waf-fixtures .card-head {
+    display: flex;
+    justify-content: center
+}
+
+.waf-fixtures .team,
+.waf-fixtures .upcoming-tab-container .countdown-wrapper .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.waf-fixtures .team-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.waf-scorestrip .countdown-wrapper,
+.waf-fixtures .countdown-wrapper,
+.waf-scorestrip .countdown-list,
+.waf-fixtures .countdown-list {
+    display: flex
+}
+
+.waf-fixtures .card-list {
+    display: flex;
+}
+
+.waf-fixtures .upcoming-tab-container .card-venue {
+    text-align: center
+}
+
+.waf-fixtures .recent-tab-container .card-venue,
+.waf-fixtures .live-tab-container .card-venue,
+.waf-fixtures .upcoming-tab-container .card-footer-content .card-venue,
+.waf-fixtures .upcoming-tab-container .time-text,
+.waf-fixtures .upcoming-tab-container .card-footer::before,
+.waf-fixtures .upcoming-tab-container .card-footer-text {
+    display: none
+}
+
+.waf-fixtures.card-list {
+    display: flex;
+    flex-direction: column
+}
+
+
+
+.waf-fixtures {
+    background-color: hsl(237.27deg 21.57% 20%);
+}
+
+.score-card-tab-head li button {
+    background: none !important;
+    background-color: none !important;
+    /* border: 2px solid linear-gradient(-45deg, var(--color-primary), var(--color-secondary-dark), var(--color-primary)) !important; */
+    color: white;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.score-card-tab-head li button h2 {
+    margin: 0px;
+}
+
+.score-card-tab-head li button:hover {
+    color: white;
+}
+
+.score-card-tab-head li .active {
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.score {
+    color: #fff !important;
+}
+
+.overs {
+    color: #fff !important;
 }
