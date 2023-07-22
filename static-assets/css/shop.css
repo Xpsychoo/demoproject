@@ -1608,17 +1608,6 @@ textarea {
 
 
 
-.shop-slider-container {
-    min-height: 100vh;
-    position: relative;
-}
-
-
-@media (min-width:769px) {
-    .shop-slider-container {
-        margin-top: 56px;
-    }
-}
 
 
 

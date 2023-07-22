@@ -9,10 +9,11 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#001240" />
 
-  <title>Rajasthan Royals Official Store - Buy RR Merchandise Online | IPL 2023</title>
+  <title>Colombo Strikers Official Store - Buy RR Merchandise Online | IPL 2023</title>
   <meta name="theme-color" content="#E50695" />
   <link rel="icon" href="static-assets/skillup-uploads/fc-web/rajasthan-royals.png" />
   <link rel="stylesheet" href="static-assets/css/shop.css">
+  <link rel="stylesheet" href="static-assets/css/style.css">
   <link rel="icon" href="static-assets/skillup-uploads/fc-web/rajasthan-royals.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet"
@@ -24,42 +25,115 @@
 
 <body>
   <div>
-    <div class="shop-header-container">
-      <div class="shop-header-sub-col">
-        <div class="logo-container">
-          <div class="logo-sub-container">
-            <a class="logo-a" href="https://xpsychoo.github.io/demoproject">
-              <img  alt=" logo" src="static-assets/skillup-uploads/prod-images/RR-Logo-Unit.png"
-                width="121" height="45" class="logo-img" />
+    <header class="header-wrap">
+      <section class="site-header">
+        <div class="site-header-wrapper">
+          <div class="site-logo">
+            <a href="index.html" title="Colombo Strikers logo" class="logo">
+              <h1 class="logo-text">Colombo Strikers</h1>
             </a>
-
+            <div class="nav-bar-icon" style="display: none;">
+              <div class=" d-flex align-items-center">
+                <button class="btn-login btn-menu" onclick="showNav()">
+                  <span class="btn-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" fill="#FFF" viewBox="0 0 448 512">
+                      <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="shop-header-right">
-            <div class=" ">
-              <div class="">
-                <div>
-                  <div class=" shop-signup-text-img-container">
-                    <img  alt="Profile Page" src="static-assets/images/user.webp" width="24" height="24"
-                      class="logo-img" />
-                    <span class="signup-text-span"><label class="heading-label" aria-multiline="true"
-                        style="font-size:14px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:20px;color:#FFFFFF;font-style:italic;letter-spacing:0.5px">Login
-                        / Signup</label></span>
+          <div class="head-wrap">
+            <div class="header-bottom">
+              <nav class="site-nav">
+                <ul class="navigation-link-list">
+                  <!-- <li class="navigation-link submenu more-menu">
+                    <button aria-label="Latest Updates" aria-expanded="false" aria-haspopup="true"
+                      class="nav-anchor"><span class="btn-text">Latest
+                        Updates</span></button>
+                    <ul class="sub-ul">
+                      <li class="sub-nav-link">
+                        <a href="#" target="" class="nav-anchor"><span class="nav-text">Media
+                            &amp; News</span></a>
+                      </li>
+                      <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span
+                            class="nav-text">Photos</span></a></li>
+                      <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span
+                            class="nav-text">Videos</span></a></li>
+                      <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span class="nav-text">Press
+                            Releases</span></a></li>
+                      <li class="sub-nav-link"> <a href="#" target="" class="nav-anchor"><span class="nav-text">Royals
+                            Matchday Scoop</span></a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <li class="navigation-link" style="border-top:none;display:none;" id="closeMenu">
+                    <a href="javascript:void(0)" onclick="closeNav()">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512" fill="#FFF">
+
+                        <path
+                          d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="navigation-link">
+                    <a href="index.html" title="Home" class="nav-anchor">
+                      <span class="nav-text">Home</span>
+                    </a>
+                  </li>
+                  <li class="navigation-link">
+                    <a href="#" title="Score" class="nav-anchor">
+                      <span class="nav-text">Score</span>
+                    </a>
+                  </li>
+                  <li class="navigation-link">
+                    <a href="shop.html" title="Shop" class="nav-anchor">
+                      <span class="nav-text">Shop</span>
+                    </a>
+                  </li>
+                  <li class="navigation-link">
+                    <a href="#" title="New" class="nav-anchor">
+                      <span class="nav-text">Media &amp; News</span>
+                    </a>
+                  </li>
+                  <li class="navigation-link">
+                    <a href="player.html" title="Players" class="nav-anchor">
+                      <span class="nav-text">Players</span>
+                    </a>
+                  </li>
+                  <li class="navigation-link">
+                    <a href="blog.html" title="Players" class="nav-anchor">
+                      <span class="nav-text">Blog</span>
+                    </a>
+                  </li>
+
+                </ul>
+              </nav>
+              <section class="promo-module">
+                <div class="user-module">
+
+                  <div class="site-login">
+                    <div class="login-section d-flex gap-2">
+
+                      <button class="btn-login btn-menu">
+                        <span class="icon"></span>
+                        <span class="btn-text">Login</span>
+                      </button>
+                    </div>
+
                   </div>
                 </div>
-              </div>
-            </div><a rel="noopener noreferrer" class="gwJgIb" href="#" target="_blank">
-              <img  alt="Shop Support" src="static-assets/images/beg.webp" width="24" height="24"
-                class="logo-img" />
-              <span class="signup-text-span"><label class="heading-label" aria-multiline="true"
-                  style="font-size:14px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:20px;color:#FFFFFF;font-style:italic;letter-spacing:0.5px">Bag</label></span>
-            </a>
+              </section>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </header>
 
     <div class="shop-slider-container">
-      <h1 class="shop-slider-container-text">Rajasthan Royals Official Store - Buy RR Merchandise
+      <h1 class="shop-slider-container-text">Colombo Strikers Official Store - Buy RR Merchandise
         Online | IPL 2023</h1>
       <div class="slider-container">
         <div class="owl-carousel owl-theme shopCarousel">
@@ -84,49 +158,47 @@
               </a>
               <div class="category-item-container">
                 <a class="category-item" href="3">
-                  <img  alt="Jersey"
-                    src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="146"
-                    class="logo-img  category-item-img" />
+                  <img alt="Jersey" src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
+                    height="146" class="logo-img  category-item-img" />
                   <label class=" heading-label category-item-label" aria-multiline="true" aria-rowcount="1"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Jersey</label>
                 </a>
                 <a class="category-item" href="#">
-                  <img  alt="T-Shirts" src="static-assets/skillup-uploads/prod-images/Tshirt-RR.png"
-                    width="146" height="146" class="logo-img  category-item-img" />
+                  <img alt="T-Shirts" src="static-assets/skillup-uploads/prod-images/Tshirt-RR.png" width="146"
+                    height="146" class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true" aria-rowcount="1"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">T-Shirts</label>
                 </a><a class=" category-item" href="#">
-                  <img  alt="Cap" src="static-assets/skillup-uploads/prod-images/cap.png" width="146"
-                    height="146" class="logo-img  category-item-img" />
+                  <img alt="Cap" src="static-assets/skillup-uploads/prod-images/cap.png" width="146" height="146"
+                    class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true" aria-rowcount="1"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Cap</label>
                 </a><a class=" category-item" href="#">
-                  <img  alt="Polo" src="static-assets/skillup-uploads/prod-images/Polo-RR.png" width="146"
-                    height="146" class="logo-img  category-item-img" />
+                  <img alt="Polo" src="static-assets/skillup-uploads/prod-images/Polo-RR.png" width="146" height="146"
+                    class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Polo</label>
                 </a><a class=" category-item" href="#">
-                  <img  alt="Shorts" src="static-assets/skillup-uploads/prod-images/ShortsRR.png"
-                    width="146" height="146" class="logo-img  category-item-img" />
+                  <img alt="Shorts" src="static-assets/skillup-uploads/prod-images/ShortsRR.png" width="146"
+                    height="146" class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Shorts</label>
                 </a>
                 <a class=" category-item" href="#">
-                  <img  alt="Vests" src="static-assets/skillup-uploads/prod-images/Vest.png" width="146"
-                    height="146" class="logo-img  category-item-img" />
+                  <img alt="Vests" src="static-assets/skillup-uploads/prod-images/Vest.png" width="146" height="146"
+                    class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true" aria-rowcount="1"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Vests</label>
                 </a>
                 <a class=" category-item" href="#">
-                  <img  alt="Grooming" src="static-assets/skillup-uploads/prod-images/Bombay-Shaving.png"
-                    width="146" height="146" class="logo-img  category-item-img" />
+                  <img alt="Grooming" src="static-assets/skillup-uploads/prod-images/Bombay-Shaving.png" width="146"
+                    height="146" class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true" aria-rowcount="1"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Grooming</label>
                 </a>
                 <a class=" category-item" href="#">
-                  <img  alt="Accessories"
-                    src="static-assets/skillup-uploads/prod-images/Accessories-RR.png" width="146" height="146"
-                    class="logo-img  category-item-img" />
+                  <img alt="Accessories" src="static-assets/skillup-uploads/prod-images/Accessories-RR.png" width="146"
+                    height="146" class="logo-img  category-item-img" />
                   <label class=" heading-label  category-item-label" aria-multiline="true"
                     style="font-size:24px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:400;text-align:left;line-height:32px">Accessories</label>
                 </a>
@@ -140,7 +212,7 @@
               <label class=" heading-label" aria-multiline="true"
                 style="font-size:32px;font-family:Romagna,Noto Sans Display ,Helvetica Neue , Helvetica, Arial, sans-serif;font-weight:600;text-align:left;line-height:36px">Trending
                 Now!</label>
-              </a>
+            </a>
             <div class="jersey-left-container">
               <div class="jersey-left-container-sub">
                 <div class="jersey-left-container-semi">
@@ -150,8 +222,8 @@
                     </div>
                   </div>
                   <div class="jersey-left-text-container">
-                    <div class="jersey-left-text-first">Rajasthan Royals</div>
-                    <div class="jersey-left-text-secound">Official Rajasthan Royals GA
+                    <div class="jersey-left-text-first">Colombo Strikers</div>
+                    <div class="jersey-left-text-secound">Official Colombo Strikers GA
                       Oversized jersey</div>
                     <div class="jersey-left-rate-section">
                       <div class="jersey-left-rate">
@@ -164,31 +236,31 @@
                   </div>
                 </div>
                 <div class="jersey-left-rate-image-section">
-                  <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-                    width="308" height="419" alt="Rajasthan Royals" class="logo-img jersey-left-rate-image" />
+                  <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="308" height="419"
+                    alt="Colombo Strikers" class="logo-img jersey-left-rate-image" />
                 </div>
               </div>
               <div class="jersey-right-section-image">
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146"
-                  height="204" alt="Rajasthan Royals" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
+                <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" width="146" height="204"
+                  alt="Colombo Strikers" class="logo-img jersey-right-image" />
               </div>
             </div>
           </div>
@@ -203,12 +275,12 @@
             <div class="autographed-jersey-section-body">
               <a class="autographed-jersey-section-body-a" href="#">
                 <div class="autographed-jersey-img-section">
-                  <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+                  <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
                     alt="Signed Memorabilia - Yuzi Chahal, Jason Holder, Jaiswal" width="221" height="308"
                     class="logo-img  autographed-jersey-img" />
 
                 </div>
-                <div class="autographed-jersey-title">Rajasthan Royals</div>
+                <div class="autographed-jersey-title">Colombo Strikers</div>
                 <div class="autographed-jersey-sub-title">Signed Memorabilia - Yuzi Chahal, Jason
                   Holder, Jaiswal</div>
                 <div class="autographed-jersey-rate-section">
@@ -219,11 +291,11 @@
                 </div>
               </a><a class="autographed-jersey-section-body-a" href="#">
                 <div class="autographed-jersey-img-section">
-                  <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+                  <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
                     alt="Signed Memorabilia - Ravi Ashwin, Shimron Hetmyer, Dhruv Jurel" width="221" height="308"
                     class="logo-img  autographed-jersey-img" />
                 </div>
-                <div class="autographed-jersey-title">Rajasthan Royals</div>
+                <div class="autographed-jersey-title">Colombo Strikers</div>
                 <div class="autographed-jersey-sub-title">Signed Memorabilia - Ravi Ashwin,
                   Shimron Hetmyer, Dhruv Jurel</div>
                 <div class="autographed-jersey-rate-section">
@@ -234,11 +306,11 @@
                 </div>
               </a><a class="autographed-jersey-section-body-a" href="#">
                 <div class="autographed-jersey-img-section">
-                  <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+                  <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
                     alt="Signed Memorabilia - Jos Buttler, Joe Root, Kuldeep Sen" width="221" height="308"
                     class="logo-img  autographed-jersey-img" />
                 </div>
-                <div class="autographed-jersey-title">Rajasthan Royals</div>
+                <div class="autographed-jersey-title">Colombo Strikers</div>
                 <div class="autographed-jersey-sub-title">Signed Memorabilia - Jos Buttler, Joe
                   Root, Kuldeep Sen</div>
                 <div class="autographed-jersey-rate-section">
@@ -247,25 +319,27 @@
                   <div class="autographed-jersey-rate-mrp-cut"></div>
                   <div class="autographed-jersey-rate-off">40% Off</div>
                 </div>
-              </a></div>
+              </a>
+            </div>
           </div>
         </div>
 
       </div>
     </div>
-    <div class="autographed-jersey-section"><a class="autographed-jersey-section-head" href="#"><label class=" heading-label autographed-jersey-section-head-label" aria-multiline="true"
+    <div class="autographed-jersey-section"><a class="autographed-jersey-section-head" href="#"><label
+          class=" heading-label autographed-jersey-section-head-label" aria-multiline="true"
           style="font-size: 32px; font-family: Romagna,  Noto Sans Display ,  Helvetica Neue , Helvetica, Arial, sans-serif; font-weight: 600; text-align: left; line-height: 36px; color: rgb(18, 18, 18);">Accessories</label>
         <div class="fBLJPS">
         </div>
       </a>
       <div class="autographed-jersey-section-body"><a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="Rajasthan Royals - Royals Sipper" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="Colombo Strikers - Royals Sipper" width="221" height="308" class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">Rajasthan Royals - Royals Sipper</div>
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">Colombo Strikers - Royals Sipper</div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹614</div>
             <div class="autographed-jersey-rate-mrp">₹799</div>
@@ -275,13 +349,13 @@
         </a>
         <a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="Rajasthan Royals - Premium Sipper Bottle (Pack of - 1)" width="221" height="308"
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="Colombo Strikers - Premium Sipper Bottle (Pack of - 1)" width="221" height="308"
               class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">Rajasthan Royals - Premium Sipper Bottle (Pack
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">Colombo Strikers - Premium Sipper Bottle (Pack
             of - 1)</div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹748</div>
@@ -292,11 +366,12 @@
         </a>
         <a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="Rajasthan Royals - Acrylic Keychains (Pack of - 2)" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="Colombo Strikers - Acrylic Keychains (Pack of - 2)" width="221" height="308"
+              class="logo-img autographed-jersey-img">
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">Rajasthan Royals - Acrylic Keychains (Pack of
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">Colombo Strikers - Acrylic Keychains (Pack of
             - 2)</div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹200</div>
@@ -307,12 +382,13 @@
         </a>
         <a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="Rajasthan Royals - Wall Clock (Pack of - 1)" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="Colombo Strikers - Wall Clock (Pack of - 1)" width="221" height="308"
+              class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">Rajasthan Royals - Wall Clock (Pack of - 1)
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">Colombo Strikers - Wall Clock (Pack of - 1)
           </div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹539</div>
@@ -323,12 +399,13 @@
         </a>
         <a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="IPL 2023 Rajasthan Royals Logo Printed Cap" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="IPL 2023 Colombo Strikers Logo Printed Cap" width="221" height="308"
+              class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">IPL 2023 Rajasthan Royals Logo Printed Cap
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">IPL 2023 Colombo Strikers Logo Printed Cap
           </div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹652</div>
@@ -338,11 +415,12 @@
           </div>
         </a><a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="RR Symmetric - Square Coaster (Pack of - 4)" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="RR Symmetric - Square Coaster (Pack of - 4)" width="221" height="308"
+              class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
+          <div class="autographed-jersey-title">Colombo Strikers</div>
           <div class="autographed-jersey-sub-title">RR Symmetric - Square Coaster (Pack of - 4)
           </div>
           <div class="autographed-jersey-rate-section">
@@ -353,12 +431,13 @@
           </div>
         </a><a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="Rajasthan Royals - Posters (Pack of - 3)" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="Colombo Strikers - Posters (Pack of - 3)" width="221" height="308"
+              class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">Rajasthan Royals - Posters (Pack of - 3)</div>
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">Colombo Strikers - Posters (Pack of - 3)</div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹171</div>
             <div class="autographed-jersey-rate-mrp">₹499</div>
@@ -368,12 +447,12 @@
         </a>
         <a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="Rajasthan Royals Match Cap 2023" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="Colombo Strikers Match Cap 2023" width="221" height="308" class="logo-img autographed-jersey-img">
 
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
-          <div class="autographed-jersey-sub-title">Rajasthan Royals Match Cap 2023</div>
+          <div class="autographed-jersey-title">Colombo Strikers</div>
+          <div class="autographed-jersey-sub-title">Colombo Strikers Match Cap 2023</div>
           <div class="autographed-jersey-rate-section">
             <div class="autographed-jersey-rate-price">₹661</div>
             <div class="autographed-jersey-rate-mrp">₹899</div>
@@ -382,10 +461,11 @@
           </div>
         </a><a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
-              alt="RR Symmetric - Fridge Magnets (Pack of - 1)" width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png"
+              alt="RR Symmetric - Fridge Magnets (Pack of - 1)" width="221" height="308"
+              class="logo-img autographed-jersey-img">
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
+          <div class="autographed-jersey-title">Colombo Strikers</div>
           <div class="autographed-jersey-sub-title">RR Symmetric - Fridge Magnets (Pack of - 1)
           </div>
           <div class="autographed-jersey-rate-section">
@@ -396,10 +476,10 @@
           </div>
         </a><a class="autographed-jersey-section-body-a" href="#">
           <div class="autographed-jersey-img-section">
-            <img  src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" alt=""
-              width="221" height="308" class="logo-img autographed-jersey-img">
+            <img src="static-assets/skillup-uploads/prod-images/RR-Jersey-Quick-Link.png" alt="" width="221"
+              height="308" class="logo-img autographed-jersey-img">
           </div>
-          <div class="autographed-jersey-title">Rajasthan Royals</div>
+          <div class="autographed-jersey-title">Colombo Strikers</div>
           <div class="autographed-jersey-sub-title">RR Halla Bol - Circular Coaster (Pack of - 4)
           </div>
           <div class="autographed-jersey-rate-section">
@@ -411,66 +491,19 @@
         </a>
       </div>
     </div>
-    <div class="shop-footer-section">
-      <div class="footer-container">
-        <div class="footer-container-links">
-          <div class="footer-logo-section">
-            <div class="footer-logo"><a href="#">
-                <img  src="static-assets/skillup-uploads/prod-images/RR-Logo-Unit.png" width="137"
-                  height="58" alt="footer banner img" class="logo-img" />
-              </a>
+    <footer class="footer-wrap">
+      <section class="footer-bottom-section">
+        <div>
+          <div class="footer-bottom">
+            <div class="layout-wrapper">
+              <div class="copyright">
+                <p class="text">&copy; Copyright Colombo Strikers. All rights reserved.</p>
+              </div>
             </div>
           </div>
-          <div class="useful-links">
-            <div class="useful-links-heading">Useful Links</div>
-            <div class="useful-links-container">
-              <div class="useful-links-item">
-                <a href="#" target="_blank">
-                  <div class="useful-links-item-label">Track Orders</div>
-                </a>
-                <div class="useful-links-item-label-border"></div>
-              </div>
-              <div class="ulit"></div>
-              <div class="useful-links-item">
-                <a target="_blank" href="#">
-                  <div class="useful-links-item-label">Helpdesk &amp; FAQ</div>
-                </a>
-                <div class="useful-links-item-label-border"></div>
-              </div>
-              <div class="ulit"></div>
-              <div class="useful-links-item">
-                <a href="#" target="_blank">
-                  <div class="useful-links-item-label">Privacy Policy</div>
-                </a>
-                <div class="useful-links-item-label-border"></div>
-              </div>
-              <div class="ulit"></div>
-              <div class="useful-links-item"><a href="#" target="_blank">
-                  <div class="useful-links-item-label">Terms &amp; Conditions</div>
-                </a>
-                <div class="useful-links-item-label-border"></div>
-              </div>
-              <div class="ulit"></div>
-              <div class="useful-links-item"><a target="_blank" href="#">
-                  <div class="useful-links-item-label">Contact Us</div>
-                </a>
-                <div class="useful-links-item-label-border"></div>
-              </div>
-              <div class="ulit"></div>
-              <div class="useful-links-item"><a target="_blank" href="#">
-                  <div class="useful-links-item-label">Offline Stores</div>
-                </a>
-                <div class="useful-links-item-label-border"></div>
-              </div>
-            </div>
-          </div><a href="#" class="fXJzny"><span class="FoDIw">More about Online
-              Shopping at </span>
-            <img  src="static-assets/skillup-uploads/fc-web/rajasthan-royals.png" width="24" height="24"
-              alt="footer view" class="logo-img" />
-          </a>
         </div>
-      </div>
-    </div>
+      </section>
+    </footer>
 
   </div>
 
@@ -488,6 +521,7 @@
       });
     });
   </script>
+  <script src="static-assets/js/main.js"></script>
 </body>
 
 </html>

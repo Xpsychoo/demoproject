@@ -1,8 +1,8 @@
 :root {
     --color-primary-light: hsl(327 74% 67%);
     --color-hsl-primary-light: 327 74% 67%;
-    --color-primary: hsl(322 95% 46%);
-    --color-hsl-primary: 322 95% 46%;
+    --color-primary: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-primary: 282.65deg 46.37% 35.1%;
     --color-primary-dark: hsl(322 95% 30%);
     --color-hsl-primary-dark: 322 95% 30%;
     --color-secondary-light: hsl(219 100% 45%);
@@ -17,8 +17,8 @@
     --color-hsl-black-default: 240 18% 13%;
     --color-black-dark: hsl(240 21% 12%);
     --color-hsl-black-dark: 240 21% 12%;
-    --color-accent: hsl(322 95% 46%);
-    --color-hsl-accent: 322 95% 46%;
+    --color-accent: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-accent: 282.65deg 46.37% 35.1%;
     --color-page-background: hsl(240 23% 97%);
     --color-hsl-page-background: 240 23% 97%;
     --color-white-default: hsl(0 0% 100%);
@@ -31,14 +31,14 @@
     --color-hsl-error-text: 0 72% 54%;
     --color-success-text: hsl(142 100% 26%);
     --color-hsl-success-text: 142 100% 26%;
-    --color-button-primary: hsl(322 95% 46%);
-    --color-hsl-button-primary: 322 95% 46%;
+    --color-button-primary: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-button-primary: 282.65deg 46.37% 35.1%;
     --color-form-field: hsl(240 23% 97%);
     --color-hsl-form-field: 240 23% 97%;
     --color-button-secondary: hsl(232 81% 37%);
     --color-hsl-button-secondary: 232 81% 37%;
-    --color-label-text: hsl(322 95% 46%);
-    --color-hsl-label-text: 322 95% 46%;
+    --color-label-text: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-label-text: 282.65deg 46.37% 35.1%;
     --color-grey: hsl(0, 0%, 88%);
     --color-hsl-grey: 0 0% 88%;
     --color-black: hsl(0, 0%, 0%);
@@ -168,7 +168,7 @@
         --container-max-width: 72rem;
         --header-social-height: 4.5rem;
         --top-header-height: 4.3rem;
-        --header-top-height: 4rem;
+        --header-top-height: 1rem;
         --header-bottom-height: 6rem;
         --header-height: calc(var(--header-top-height) + var(--header-bottom-height));
         --waf-head-height: 13rem;
@@ -409,7 +409,7 @@
 }
 
 .site-logo::after {
-    background-color: var(--pink-color);
+    /* background-color: var(--pink-color); */
 }
 
 .dark-mode .footer-bottom {
@@ -422,7 +422,7 @@
 .waf-component.waf-loader .loader,
 .scroll-top-btn {
     background-color: var(--theme-color);
-    border-top: 2px solid var(--pink-color);
+    /* border-top: 2px solid var(--pink-color); */
 }
 
 .footer-middle,
@@ -1125,7 +1125,7 @@ textarea {
 
 .owlcarouselstyles .owl-stage-outer {
     width: 100%;
-    height: 86vh;
+    /* height: 86vh; */
     position: relative;
     overflow: hidden;
 }
@@ -3210,7 +3210,7 @@ input[type=number] {
 }
 
 body {
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) calc(var(--header-height) + env(safe-area-inset-bottom)) env(safe-area-inset-left)
+    /* padding: env(safe-area-inset-top) env(safe-area-inset-right) calc(var(--header-height) + env(safe-area-inset-bottom)) env(safe-area-inset-left) */
 }
 
 .site-logo {
@@ -3364,7 +3364,7 @@ body {
     transition: right 500ms ease-in-out;
     position: fixed;
     top: 0;
-    right: -100%
+    right: -150%
 }
 
 .menu-section {
@@ -3883,7 +3883,7 @@ body {
         height: var(--header-top-height);
         background-color: #151535c5;
         display: flex;
-        border-bottom: 2px solid var(--pink-color);
+        /* border-bottom: 2px solid var(--pink-color); */
     }
 
     .header-top .nav-text {
@@ -4880,7 +4880,7 @@ body {
 }
 
 .listing-resource .article-item {
-    padding: var(--full-space);
+    /* padding: var(--full-space); */
     width: 100%
 }
 
@@ -5070,8 +5070,8 @@ body {
 :root {
     --color-primary-light: hsl(327 74% 67%);
     --color-hsl-primary-light: 327 74% 67%;
-    --color-primary: hsl(322 95% 46%);
-    --color-hsl-primary: 322 95% 46%;
+    --color-primary: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-primary: 282.65deg 46.37% 35.1%;
     --color-primary-dark: hsl(322 95% 30%);
     --color-hsl-primary-dark: 322 95% 30%;
     --color-secondary-light: hsl(219 100% 45%);
@@ -5086,8 +5086,8 @@ body {
     --color-hsl-black-default: 240 18% 13%;
     --color-black-dark: hsl(240 21% 12%);
     --color-hsl-black-dark: 240 21% 12%;
-    --color-accent: hsl(322 95% 46%);
-    --color-hsl-accent: 322 95% 46%;
+    --color-accent: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-accent: 282.65deg 46.37% 35.1%;
     --color-page-background: hsl(240 23% 97%);
     --color-hsl-page-background: 240 23% 97%;
     --color-white-default: hsl(0 0% 100%);
@@ -5100,14 +5100,14 @@ body {
     --color-hsl-error-text: 0 72% 54%;
     --color-success-text: hsl(142 100% 26%);
     --color-hsl-success-text: 142 100% 26%;
-    --color-button-primary: hsl(322 95% 46%);
-    --color-hsl-button-primary: 322 95% 46%;
+    --color-button-primary: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-button-primary: 282.65deg 46.37% 35.1%;
     --color-form-field: hsl(240 23% 97%);
     --color-hsl-form-field: 240 23% 97%;
     --color-button-secondary: hsl(232 81% 37%);
     --color-hsl-button-secondary: 232 81% 37%;
-    --color-label-text: hsl(322 95% 46%);
-    --color-hsl-label-text: 322 95% 46%;
+    --color-label-text: hsl(282.65deg 46.37% 35.1%);
+    --color-hsl-label-text: 282.65deg 46.37% 35.1%;
     --color-grey: hsl(0, 0%, 88%);
     --color-hsl-grey: 0 0% 88%;
     --color-black: hsl(0, 0%, 0%);
@@ -5235,7 +5235,7 @@ body {
         --container-max-width: 72rem;
         --header-social-height: 4.5rem;
         --top-header-height: 4.3rem;
-        --header-top-height: 4rem;
+        --header-top-height: 1rem;
         --header-bottom-height: 6rem;
         --header-height: calc(var(--header-top-height) + var(--header-bottom-height));
         --waf-head-height: 13rem;
@@ -6987,9 +6987,10 @@ body {
 .waf-listing.home-video-list .item-type-video .article-content .item-type-icon,
 .waf-fixed-dynamic-content-listing.home-video-list .item-type-video .article-content .item-type-icon {
     position: relative;
-    width: 3.2rem;
-    height: 3.2rem;
-    margin-bottom: 0
+    width: 4.2rem;
+    height: 4.2rem;
+    margin-bottom: 0;
+    border-radius: 50%;
 }
 
 .waf-listing.home-video-list .item-type-video .article-content .item-type-icon::after,
@@ -7668,8 +7669,9 @@ body {
 .waf-listing.home-tv-list .first-list .item-type-video .article-content .item-type-icon,
 .waf-listing.home-tv-list .second-list .item-type-video .article-content .item-type-icon {
     position: relative;
-    width: 3.2rem;
-    height: 3.2rem
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
 }
 
 .waf-listing.home-tv-list .first-list .item-type-video .article-content .item-type-icon::after,
@@ -8557,10 +8559,10 @@ body {
     margin: 0
 }
 
-.waf-listing .article-list,
+/* .waf-listing .article-list,
 .waf-fixed-dynamic-content-listing .article-list {
     overflow-x: scroll
-}
+} */
 
 .waf-listing .meta-date::before,
 .waf-fixed-dynamic-content-listing .meta-date::before {
@@ -10320,7 +10322,7 @@ body {
     position: relative;
     flex-shrink: 0;
     transition: all ease 500ms;
-    background: linear-gradient(-45deg, var(--theme-color), var(--theme-color),  var(--theme-color));
+    background: linear-gradient(-45deg, var(--theme-color), var(--theme-color), var(--theme-color));
     background-size: 200% 200%;
     animation: gradient-bg 20s ease infinite
 }
@@ -12615,15 +12617,7 @@ select {
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .owlcarouselstyles .owl-stage-outer {
-        height: auto;
-    }
 
-    .site-header-wrapper .head-wrap {
-        display: none;
-    }
-}
 
 /* Score Card */
 
@@ -13336,4 +13330,59 @@ select {
 
 .overs {
     color: #fff !important;
+}
+
+.waf-body {
+    overflow-x: hidden;
+}
+
+.waf-squad .home-squad {
+    width: 100%;
+    margin: 0px;
+}
+
+
+.article-list {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar-icon {
+        display: block !important;
+    }
+
+    .waf-body {
+        overflow-x: scroll;
+    }
+
+    .site-logo {
+        width: 12rem;
+    }
+
+    .site-nav {
+        max-width: 300px;
+        height: 100vh;
+        background-color: #09092b;
+    }
+
+    .site-nav .navigation-link-list .navigation-link {
+        padding: 10px;
+        font: 1.2rem/1.8rem "Romagna-Bold", sans-serif;
+        text-transform: capitalize;
+        border-top: 2px solid #FFF;
+    }
+
+    .site-nav .navigation-link-list .navigation-link a {
+        color: #FFF;
+    }
+
+    #closeMenu {
+        display: block !important;
+    }
+}
+
+
+
+.show-sidebar {
+    right: 0 !important;
 }
