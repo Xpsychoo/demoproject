@@ -3107,10 +3107,11 @@ textarea {
     }
 
     .shop-slider-container {
-        padding-top: 56px;
+        /* padding-top: 56px; */
     }
 
     .category-item-container .category-item label {
         font-size: 15px !important;
     }
+
 }
