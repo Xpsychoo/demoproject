@@ -12156,12 +12156,43 @@ button.swiper-pagination-bullet {
     flex-direction: row-reverse;
 }
 
+.about-achivements {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bg-card-sort {
+    background: linear-gradient(118.35deg, hsla(0, 0%, 100%, .12), hsla(0, 0%, 100%, .05) 57.29%);
+    font: 1.2rem/1.8rem "Romagna-Bold", sans-serif;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-card-sort-social {
+    background: linear-gradient(118.35deg, hsla(0, 0%, 100%, .12), hsla(0, 0%, 100%, .05) 57.29%);
+    font: 1.2rem/1.8rem "Romagna-Bold", sans-serif;
+    color: #FFF;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFF;
+
+}
+
 .bg-card .right {
     flex-direction: row-reverse;
 }
 
 .bg-card:hover {
-    background: hsla(0, 0%, 100%, .1);
+    background: hsla(0, 0%, 100%, .1) !important;
 }
 
 
@@ -12456,4 +12487,8 @@ html {
 .login-header img {
     height: 50vh;
     width: auto;
+}
+
+.theme-bg {
+    background-color: #1b1b27;
 }
